@@ -1,12 +1,10 @@
 package io.mycontact.web;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MycontactApplication {
-
+public class MyContactApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(MycontactApplication.class, args);
+		SpringApplication.run(MyContactApplication.class, args);
 	}
 }
