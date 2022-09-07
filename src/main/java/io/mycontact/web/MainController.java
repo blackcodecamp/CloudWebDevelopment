@@ -8,11 +8,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class MainController {
 
-    @RequestMapping("/index.html")
+    @RequestMapping({"", "/", "/index", "/index.html"})
     public String  index() {
         return "views/index";
     }
-    @RequestMapping("/home.tpl")
+    @RequestMapping({"home", "/home.tpl"})
     public ModelAndView home(){
         return new ModelAndView("views/home");
     }

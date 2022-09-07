@@ -5,7 +5,7 @@
 
 	<groupId>io.contact</groupId>
 	<artifactId>my-contact</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<packaging>jar</packaging>
 
 	<name>mycontact</name>
