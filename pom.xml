@@ -5,18 +5,25 @@
 
 	<groupId>io.contact</groupId>
 	<artifactId>my-contact</artifactId>
+<<<<<<< HEAD
 	<version>0.0.1-SNAPSHOT</version>
+=======
+	<version>1</version>
+>>>>>>> 6a8675ce0ab01ec03bda8f75b5d37c963c8f0f1d
 	<packaging>jar</packaging>
 
 	<name>mycontact</name>
 	<description>my contact in JSON format</description>
 
+<<<<<<< HEAD
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+=======
+>>>>>>> 6a8675ce0ab01ec03bda8f75b5d37c963c8f0f1d
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,6 +31,15 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+<<<<<<< HEAD
+=======
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.3</version>
+	</parent>
+
+>>>>>>> 6a8675ce0ab01ec03bda8f75b5d37c963c8f0f1d
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,6 +55,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
@@ -55,6 +72,24 @@
 	</build>
 
 
+=======
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+>>>>>>> 6a8675ce0ab01ec03bda8f75b5d37c963c8f0f1d
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -64,4 +99,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a8675ce0ab01ec03bda8f75b5d37c963c8f0f1d
 </project>
