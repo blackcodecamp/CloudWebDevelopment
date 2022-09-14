@@ -1,38 +1,72 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: Bootcamp Introduction
+nav_order: 1
+has_children: true
+---
+{:toc}
 
-You can use the [editor on GitHub](https://github.com/jjovah/mycontact/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# 0.0 Introduction
+The goal of the myContact project is to expose students to various aspects of the dev/ops process over a 3 day period. This exposure hits coding, infrastructure, trouble shooting and integration with other technologies such as HubSpot marketing platform. Students will be given tasks and sub projects with the goal of deploying an application that displays a web page that delivers the students resume to the user of this application. Through this process the student will be exposed to Tanzu application service and entry level Spring Boot Java coding, wrapped in the dev/ops fail fast process. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Milestones 
 
-### Markdown
+### M1: Course 1 “Do”  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Students will be introduced to the project and course materials.  The students will create GitHub accounts and setup their computers with the proper tools to enable coding and deployment of the application to the Tanzu application service.  
 
-```markdown
-Syntax highlighted code block
+- Coding environment and tools downloaded and installed on Virtual Machine or laptop 
 
-# Header 1 
-## Header 2
-### Header 3
+- Setup Tanzu application service account and workspaces 
 
-- Bulleted
-- List
+- Introduction to coding snippets and code adjustments 
 
-1. Numbered
-2. List
+- Code application using HTML deploy and test, repeat. 
 
-**Bold** and _Italic_ and `Code` text
+ 
+### Expected Outcome: 
 
-[Link](url) and ![Image](src)
-```
+- Students will have a Tanzu application account 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Students will create a Github account to copy code 
 
-### Jekyll Themes
+- Students will pull code and personalize code with their resume data 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jjovah/mycontact/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Students will be familiar with developing and testing code with” cf push” 
 
-### Support or Contact
+### M2: Course 2 “Understand” 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-## Introduction
+We will explore the mechanics of the technology and how it works and map the actions to “what they are doing in course 1” to what the technical processes are in the technology. 
+
+- Concepts Docker/Containers 
+
+- Kubernetes Concepts  
+
+- Development and Operations (Dev/Ops)  
+ 
+
+### Expected Outcome: 
+
+- Students understand the technology  
+
+- Students can explain the technology (Presentations Possibly)  
+
+### M3: Course 3 “Integrate” 
+
+Students will learn how to integrate their resume website with HubSpot marketing platform to collect statistics, on website hits and links. Also, an opportunity to link their website to other services as well to make the experience richer. Then present their project and what they learned and give feedback to us 
+
+- Setup HubSpot Account.  
+
+- Integrate HubSpot code into site.  
+
+- Collect test stats 
+
+- Creative services (optional)  
+
+- Present Project 
+
+### Expected Outcome: 
+
+- HubSpot Integration  
+
+- Statistics Collection 
