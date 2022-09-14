@@ -1,3 +1,7 @@
-.idea/*
 .m2/*
 .settings/*
+.idea/*
+Gemfile
+Gemfile.lock
+instructions.txt
+
