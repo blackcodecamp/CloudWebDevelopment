@@ -1,0 +1,14 @@
+defaultPortal: miverson-dev
+portals:
+  - name: miverson-dev
+    portalId: 22691654
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CIm25pe0MBIJAA0AAAAA4A0DGMb-6AoguoOwFiju6QwyFKYmnSvAPwybcMCnd7Se6Fg2rUaTOjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhTHaLUqiIkK6HcY1OK7f8PdgFzlJUoDbmExUgBaAA
+        expiresAt: '2022-09-15T21:06:37.966Z'
+    personalAccessKey: >-
+      CiQ2YTk1YWE1MS0wM2RmLTQzNDYtOTQzMy1kYTY3MDA0NTViMmIQxv7oChi6g7AWKhkABeaRgvWz2J55iknGUzGyjDjDNJbxE9WRSgNuYTE
+    sandboxAccountType: null
+    parentAccountId: null

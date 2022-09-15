@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR
-parent: 2.0 Day 2 Overview
+parent: 2.0 Course 2 Overview
 has_children: true
 nav_order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.2 Integrate Features into Website
-parent: 3.0 Day 3 Overview
+parent: 3.0 Course 3 Overview
 nav_order: 3
 ---
 

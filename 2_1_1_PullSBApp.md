@@ -2,7 +2,7 @@
 layout: default
 title: 2.1.1 Access the Spring Boot Application  
 parent: 2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR
-grand_parent: 2.0 Day 2 Overview
+grand_parent: 2.0 Course 2 Overview
 nav_order: 1
 ---
 # 2.1.1 Access the Spring Boot Application 
@@ -32,7 +32,7 @@ This tutorial demostrates how to get a local copy of the Spring Boot Application
         ```
     3. Get a local copy of the code
         ```
-        git pull https://github.com/morganiverson/mycontact.git
+        git pull https://github.com/blackcodecamp/CloudWebDevelopment.git
         ```
     4. See the code files
         ```

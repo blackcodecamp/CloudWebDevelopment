@@ -2,7 +2,7 @@
 layout: default
 title: 2.1.2 Create Docker Container Image of your Application
 parent: 2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR
-grand_parent: 2.0 Day 2 Overview
+grand_parent: 2.0 Course 2 Overview
 nav_order: 2
 ---
 # 2.1.1 Create Docker Container Image of your Application
@@ -22,15 +22,15 @@ This tutorial demostrates how to create a Docker Container Image of your Spring 
         ```
         ./mvnw clean install
         ```
-    2. Build a Docker Image from your project 
+    2. Build a Docker Image called 'resume-image' from your project 
     
         (Note: You must include the . at the end)
         ```
-        docker build -t <image-name> . 
+        docker build -t resume-image . 
         ```
     3. See that your image was created
         ```
         docker image ls
         ```
 
-5. Keep track of your image name
+5. Keep track of your image name!

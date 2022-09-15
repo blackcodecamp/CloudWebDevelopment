@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 3.0 Day 3 Overview
+title: 3.0 Course 3 Overview
 nav_order: 4
 has_children: true
 ---
 
-# 3.0 Day 3 Overview
-This document will dicuss what we will be learning and doing on Day 3.
+# 3.0 Course 3 Overview
+This document will dicuss what we will be learning and doing on Course 3.
 ## Pre-Requisites
 ### Registrations
 * [GitHub Account](www.github.com)
@@ -14,6 +14,6 @@ This document will dicuss what we will be learning and doing on Day 3.
 
 ### Installations
 * [git CLI](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* IDE ([IntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows) or [Visual Studio Code](https://code.visualstudio.com/download))
+* [Visual Studio Code](https://code.visualstudio.com/download))
 
 {:toc}
