@@ -4,4 +4,7 @@
 Gemfile
 Gemfile.lock
 instructions.txt
-
+Gemfile
+Gemfile.lock
+vendor/*
+.bundle/*
