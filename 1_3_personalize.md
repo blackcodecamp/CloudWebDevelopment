@@ -7,9 +7,9 @@ nav_order: 3
 # 1.3 Add Styles to Website
 We designed a styles resume webpage displayed below. The tutorial below will demonstrate how to replicate this from the shell we have.
 
-<iframe src = "personalized.html" frameborder="1" width="768" height="432"></iframe>
+<iframe src = "personalized.html" frameborder="1" width="768" height="432" scrolling="no"></iframe>
 
-<a href = "/personalized.html" target = "_blank">Open Demo in New Window</a>
+<a href = "/CloudWebDevelopment/personalized.html" target = "_blank">Open Demo in New Window</a>
 
 # Get Local Copy Styled webpage
 1. Run the following to create a new empty branch
