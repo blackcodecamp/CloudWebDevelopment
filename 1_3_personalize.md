@@ -25,6 +25,7 @@ We designed a styles resume webpage displayed below. The tutorial below will dem
 3. Type `:wq` to exit vim/editor
 4. Open the file called `initial.html`
 5. We will go together to add the necessary styles to replicate the demo by making `initial.html` look like `complete.html`
+<!-- Perform steps in mycontact -->
 
 
 
