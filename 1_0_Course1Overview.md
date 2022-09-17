@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1.0 Course 1 Overview
+title: Course 1 Overview
 nav_order: 3
 has_children: true
 ---

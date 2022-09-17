@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.2 Deploy Spring Boot App Locally with Docker Compose
-parent: 2.0 Course 2 Overview
+parent: Course 2 Overview
 
 nav_order: 2
 ---

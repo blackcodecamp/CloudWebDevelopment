@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2.3 Explore Docker
-parent: 2.0 Course 2 Overview
+parent: Course 2 Overview
 nav_order: 3
 ---
 # 2.3 Explore Docker

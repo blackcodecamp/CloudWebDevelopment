@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3.1 Implement HubSpot Website Analytics Reports
-parent: 3.0 Course 3 Overview
+parent: Course 3 Overview
 nav_order: 1
 ---
 

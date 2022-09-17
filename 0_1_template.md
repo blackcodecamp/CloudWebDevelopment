@@ -1,9 +1,4 @@
----
-layout: default
-title:  Template
-parent: Bootcamp Introduction
-nav_order: 1
----
+
 
 # Tutorial Template
 This tutorial ...

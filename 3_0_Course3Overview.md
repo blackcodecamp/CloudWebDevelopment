@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 3.0 Course 3 Overview
-nav_order: 4
+title: Course 3 Overview
+nav_order: 5
 has_children: true
 ---
 

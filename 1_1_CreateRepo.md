@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1.1 Create GitHub Repository
-parent: 1.0 Course 1 Overview
+parent: Course 1 Overview
 nav_order: 1
 ---
 

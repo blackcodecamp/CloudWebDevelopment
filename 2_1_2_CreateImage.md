@@ -2,7 +2,7 @@
 layout: default
 title: 2.1.2 Create Docker Container Image of your Application
 parent: 2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR
-grand_parent: 2.0 Course 2 Overview
+grand_parent: Course 2 Overview
 nav_order: 2
 ---
 # 2.1.1 Create Docker Container Image of your Application

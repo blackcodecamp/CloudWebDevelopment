@@ -1,3 +1,11 @@
 remote_theme: just-the-docs/just-the-docs
-# theme: just-the-docs
+# theme: just-the-docs # local theme only bundle exec jekyll 
+color_scheme: custom_scheme
 
+title: Cloud Web Development Course
+description: A course series introducing HTML web and Spring Boot app development, deployment using GitHub Pages, Docker, Kubetnetes and Tanzu Community Edition, and integration with HubSpot CRM."
+baseurl: "/" 
+url: "https://blackcodecamp.github.io/CloudWebDevelopment" 
+
+search_enabled: false
+# logo: "logos/vmw-logo-vmware-logo-black-72.png"
