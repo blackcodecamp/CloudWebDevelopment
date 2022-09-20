@@ -52,16 +52,16 @@ This document will demonstrate how to dind and add Google Fonts and FontAwesome 
 4. Click and drag the file from your downloads to your folder where your `initial.html`is 
 5. Find where you want to add your icon and add `<img src = "icon.svg">`
 6. You can add a `class="some-class-name"` and add styles to set the size of this icon and more
-7. You can also wrap this <img> with an anchor <a></a> to make it clickable
+7. You can also wrap this `<img>` with an anchor `<a></a>` to make it clickable
 
 ## Add Google Fonts
-1. Open https://fonts.google.com/
+1. Open [Google Fonts](https://fonts.google.com/)
 2. Search and Click the font you like
 3. Click The plus symbol on the right side of the style and weight of the font you like
 4. When you have selected all the font weights and styles you like click the grid with the plus symbol in the upper right corner with tootip 'View selected families'
-5. Under 'Use on the web' Sleect <link>
-6. Copy the <link> tags below
-7. Paste the link tags in your initial.html between your <head></head> tags 
+5. Under 'Use on the web' Select `<link>`
+6. Copy the `<link>` tags below
+7. Paste the link tags in your `initial.html` between your `<head></head>` tags 
 8. You can now use the font according to the examples on the Gooogle Fonts Selected families page under 'CSS rules to specify families'
 
-The font used in this example is Importedt from Google. It is called Montserrat.
+**Note:** The font used in this example is imported from Google. It is called Montserrat.

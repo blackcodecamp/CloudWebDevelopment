@@ -20,9 +20,9 @@ This document will demonstrate how to make window filling sections of a website.
     ```
 2. Add the following code between the `{}`
     ```
-    border: 5px solid blue; /* Show Element */
     height: 100vh; /* 100% of the height of the view/browser */
     padding-top: 90px; /* nav-bar-height + (2 * nav-barpadding) = 50px + (2 * 20px) = 90px */
+    color: var(--section-text-color); /* Text Color */
     ```
 
 ## Inner Section Container Styles
@@ -38,7 +38,7 @@ This document will demonstrate how to make window filling sections of a website.
 1. Find `.landing-section {}` in between the `<style></style>` tags
 2. Add the following code between the `{}`
     ```
-    background-color: black; /* Background Color */
+    background-color: var(--main-color); /* Background Color */
     color: white; /* Text Color */
     height: 100vh; /* 100% of the height of the view/browser */
     ```

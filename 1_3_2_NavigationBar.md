@@ -8,37 +8,40 @@ grand_parent: Course 1 Overview
 # 1.3.2 Navigation Bar Styles 
 This document will demonstrate how to create a black navigation bar on your webpage.
 
-### Navigation Bar Container
+### Navigation Bar Container Styles
 1. Find `.navigation-bar-container {}` in between the `<style></style>` tags
 
     This is the navigation-bar-container class. Any styles we add between the `{}` wil apply to any element that has `class = 'navigation-bar-container'`. Notice there is no `.` when declaring the class.
 
 2. Add the following code between the `{}`
     ```
-    background-color: red; /* Show Element */
-    display: flex; /* Layout model - gives us control over where elements are placed*/
-    justify-content: center; /* Place elements in the middle (horizontal) */
-    background-color: rgba(0, 0, 0, 0.8); /* Black with 80% Opacity */
-    padding: 20px 0px; /* keep everything inside the element 20px from the left and right borders */
+    background-color: var(--nav-bar-color); /* Background Color */
+    display: flex; /* Layout model - gives us control over where elements are placed */
+    justify-content: center; /* Horizontal Alignment */
+    padding: 20px 0px; /* Keep everything inside the element 20px from the top and bottom borders */
     height: 50px; /* Container Height */
     ```
+
+    **Note:** `var(--nav-bar-color)` referes to a variable called `--nav-bar-color` set in the `:root{}` selector in between the `<style></style>` tags. You can add any variables your want and reuse the values in CSS style attributes.
+
 3. Notice how there is a  bit of white space between the `.navigation-bar-container` styles and the window
 4. Find `html, body {}`
-5. Add the following code between the `{}`
+5. Add the following code between the `{}` (Remove Gap and Set Page wide font family and weight)
     ```
     padding: 0; /* Space between borders and elements inside */
     margin: 0; /* Space outisde container */
-    font-family: sans-serif; /* Font Family */
+    font-family: Monserrat, Helvetica, sans-serif; /* Font Family (Google Import) */
+    font-weight: 200; /* Boldness/Thinness of text (400 = Regular Weight) */
     ```
 
-### Inner Navigation Bar Container
+### Inner Navigation Bar Container Styling
 1. Find `.navigation-bar {}` in between the `<style></style>` tags
 2. Add the following code between the `{}`
     ```
     background-color: black; /* Show Element */
     width: 85%; /* Make this element 85% of the width of its container */
     display: flex; /* Layout Model */
-    justify-content: space-between; /* Flex Layout Model Attribute - create maximum amount of space between elements */
+    justify-content: space-between; /* Flex Layout madel attribute - create maximum amount of space between elements */
     align-items: center; /* Vertical Alignment */
     ```
 ### Unordered List of Links
