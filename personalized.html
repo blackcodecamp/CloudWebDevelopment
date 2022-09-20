@@ -13,9 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">    
     
-    <!-- GOOGLE ICONS IMPORT -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
     <style>
       /*
       #id-style {
@@ -32,76 +29,74 @@
         This sets the style for all elements <tag></tag>
       }
       */
+
+      /* CSS Variables: Reference using var(--var-name) */
+      :root {
+        --main-color: rgba(126, 159, 178);
+        --section-text-color: black;
+        --nav-bar-color: rgba(126, 159, 178, .8);
+      }
+      /* Note: You can use https://htmlcolorcodes.com/color-picker/ to find the rgb values of any color you want! */
+
       html, body {
-        margin: 0;
-        font-family: Monserrat, Helvetica, sans-serif;
-        font-weight: 200;
+        padding: 0; /* Space between borders and elements inside */
+        margin: 0; /* Space outisde container */
+        font-family: Monserrat, Helvetica, sans-serif; /* Font Family (Google Import) */
+        font-weight: 200; /* Boldness/Thinness of text (400 = Regular Weight) */
       }
 
       /* Page Title Settings */
       #page-title {
-        display: inline-block;
-        color: white;
-        font-size: 20px;
+        font-size: 20px; /* Font Size */
       }
       #page-title a {
-        text-decoration: none; /* remove underline */
-        color: white;
+        text-decoration: none; /* Remove Underline */
+        color: white; /* Text Color */
       }
 
       /* Navigation Bar Styles */
-      /* The sticky class is added to the header with JS when it reaches its scroll position */
       .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
+        position: fixed; /* Position method, fixed - set position in relation to view window using top, bottom, right, left */
+        top: 0; /* Distance from the top of the view window */
+        width: 100%; /* Width in relation to container */
       }
       .navigation-bar-container {
-        display: flex;
-        justify-content: center;
-        background-color: rgba(126, 159, 178, .8);
-        /*background-color: rgba(0, 0, 0, 0.8); /* Black with 80% Opacity*/
-        padding: 20px 0px;
-        height: 50px;
+        background-color: var(--nav-bar-color); /* Background Color */
+        display: flex; /* Layout model - gives us control over where elements are placed */
+        justify-content: center; /* Horizontal Alignment */
+        padding: 20px 0px; /* Keep everything inside the element 20px from the top and bottom borders */
+        height: 50px; /* Container Height */
       }
       .navigation-bar {
-        width: 85%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center; /* vertical alignment */
+        width: 85%; /* Make this element 85% of the width of its container */
+        display: flex; /* Layout Model */
+        justify-content: space-between; /* Flex Layout madel attribute - create maximum amount of space between elements */
+        align-items: center; /* Vertical Alignment */
       }
       .navigation-bar-list {
-        padding: 0;
-        margin: 0;
-        list-style :none; /* no bullet points */
+        list-style: none; /* Removes Bullet Points */
       }
       .navigation-bar-item {
-        float: left; /* move to left side of screen */
-        margin-left: 35px;
-        font-size: 18px;
+        margin-left: 35px; /* Create 35px of space between this element and the element to the left */
+        font-size: 18px; /* Font Size */
+        float: left; /* Move Item to the left of its container, Respects the 'justify-content: space-between;' flex layout attribute */
+    
       }
       .navigation-bar-item-link {
-        text-decoration: none; /* remove underline */
-        color: white;
+        text-decoration: none; /* Remove Underline */
+        color: white; /* Text Color */
       }
 
       /* Landing Section Styles */
-      h1 {
-        font-family: Monserrat, Helvetica, sans-serif;
-        font-weight: 200;
-      }
       .landing-section {
-        background-color: rgb(126, 159, 178);
-        height: 100vh;
-        /* background-image: url("72DPIxGettyImages-1011210138.jpg");
-        background-repeat: no-repeat;
-        background-size: cover; */
+        background-color: var(--main-color); /* Background Color */
+        color: white; /* Text Color */
+        height: 100vh; /* 100% of the height of the view/browser */
       }
       .landing-section-text {
-        color: white;
-        line-height: 100vh; /* Smae height as section*/
-        font-size: 100px;
-        margin-top: 0;
+        font-size: 100px; /* Font Size */
+        line-height: 100vh; /* Text Line Height - Vertical Center (without flex layout, text only, 1 line of text) */
+        margin: 0; /* No spacing between container boarders and element */
       }
 
       /* Section Styles */
@@ -111,29 +106,23 @@
       .course-section, 
       .contact-section {
         height: 100vh; /* 100% of the height of the view/browser */
-        padding-top: 90px; /* nav-bar height + 2 * nav-barpadding = 50px + (2 * 20px) = 90px */
-      }
-      h2 {
-        font-family: Monserrat, Helvetica, sans-serif;
-        font-weight: 400;
+        padding-top: 90px; /* nav-bar-height + (2 * nav-barpadding) = 50px + (2 * 20px) = 90px */
+        color: var(--section-text-color); /* Text Color */
       }
       .container {
-        width: 85%;
-        margin: 0 auto;
+        width: 85%; /* Element Width based on Container */
+        margin: 0 auto; /* Horizantally Center */
       }
 
       /* Icon Styles */
       .contact-icon {
-        height: 25px;
-        margin-right: 50px;
-      }
-      .contact-icon:hover {
-        opacity: .6;
+        height: 25px; /* Element Height */
+        margin-right: 50px; /* Space between this element and element to the right */
       }
       .icon-container {
-        display:flex;
-        justify-content: center;
-        margin: 10px 0px;
+        display: flex; /* Layout Model */
+        justify-content: center; /* Flex Layout, Horizontally Center */
+        margin: 10px 0px; /* Add space outside of container on top and bottom */
       }
     </style>
   </head>
@@ -163,7 +152,8 @@
     <section class = "about-section" id = "about">
     <div class = "container">
       <h2>About Me</h2>
-      <p>I am a full time student ast Howard university...</p>
+      <p>I am a full-time student at Howard University.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </p>
     </div>
     </section>
@@ -181,11 +171,17 @@
     <section class = "skill-section" id = "skill">
       <div class = "container">
         <h2>Skills</h2>
+        
+        Familiar:
         <ul>
-          <li>Java</li>
+          <li>GitHub & GHCR</li>
           <li>HTML/CSS</li>
           <li>HubSpot</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>VMware Tanzu Community Edition</li>
         </ul>
+
       </div>
     </section>
 
