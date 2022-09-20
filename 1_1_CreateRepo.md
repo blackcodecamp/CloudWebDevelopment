@@ -10,7 +10,7 @@ This tutorial will demonstrate how to create a Github account, create a remote r
 
 ## PreRequisites
 ### Registrations
-* [GitHub Account](www.github.com)
+* [GitHub Account](https://github.com)
 
 ## Create a GitHub Repository
 1. 
