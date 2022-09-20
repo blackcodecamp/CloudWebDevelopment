@@ -8,7 +8,7 @@ nav_order: 1
 # Cloud Web Development Course
 
 # 0.0 Introduction
-The goal of the myContact project is to expose students to various aspects of the dev/ops process over a 3 day period. This exposure hits coding, infrastructure, trouble shooting and integration with other technologies such as HubSpot marketing platform. Students will be given tasks and sub projects with the goal of deploying an application that displays a web page that delivers the students resume to the user of this application. Through this process the student will be exposed to Tanzu Commuity Edition (TCE) and entry level Spring Boot Java coding, wrapped in the dev/ops fail fast process. TCE is an opensource kubernetes deployment and management tool from VMware. More information can be found [here] (https://tanzucommunityedition.io/).
+The goal of the myContact project is to expose students to various aspects of the dev/ops process over a 3 day period. This exposure hits coding, infrastructure, trouble shooting and integration with other technologies such as HubSpot marketing platform. Students will be given tasks and sub projects with the goal of deploying an application that displays a web page that delivers the students resume to the user of this application. Through this process the student will be exposed to Tanzu Commuity Edition (TCE) and entry level Spring Boot Java coding, wrapped in the dev/ops fail fast process. TCE is an opensource kubernetes deployment and management tool from VMware. More information can be found [here](https://tanzucommunityedition.io/).
 
 ## Milestones 
 
