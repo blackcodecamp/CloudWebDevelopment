@@ -16,10 +16,8 @@ The goal of the myContact project is to expose students to various aspects of th
 
 Students will be introduced to the project and course materials.  The students will create GitHub accounts and setup their computers with the proper tools to enable coding and deployment of the application to the Tanzu Commuity Edition (TCE).  
 
-- Coding environment and tools downloaded and installed on Virtual Machine or laptop 
-
-- Setup Tanzu application service account and workspaces 
-
+- Coding environment and tools downloaded and installed laptop 
+ 
 - Introduction to coding snippets and code adjustments 
 
 - Code application using HTML deploy and test, repeat. 
@@ -27,13 +25,11 @@ Students will be introduced to the project and course materials.  The students w
  
 ### Expected Outcome: 
 
-- Students will have a Tanzu application account 
-
 - Students will create a Github account to copy code 
 
 - Students will pull code and personalize code with their resume data 
 
-- Students will be familiar with developing and testing code with” cf push” 
+- Students will be familiar with developing and testing code and deploying github page webpages. 
 
 ### M2: Course 2 “Understand” 
 
@@ -41,7 +37,7 @@ We will explore the mechanics of the technology and how it works and map the act
 
 - Concepts Docker/Containers 
 
-- Kubernetes Concepts  
+- Kubernetes Concepts -- Tanzu Community Edition
 
 - Development and Operations (Dev/Ops)  
  
@@ -50,7 +46,7 @@ We will explore the mechanics of the technology and how it works and map the act
 
 - Students understand the technology  
 
-- Students can explain the technology (Presentations Possibly)  
+- Students can explain the technology (Presentations)  
 
 ### M3: Course 3 “Integrate” 
 
