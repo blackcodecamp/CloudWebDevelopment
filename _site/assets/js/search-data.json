@@ -1,0 +1,476 @@
+{"0": {
+    "doc": "Course Content Board",
+    "title": "Cloud Web Development Course Content Board",
+    "content": "We have created a Miro board to provide detailed explanations of the tools, frameworks and languages we will be using. Navigate: right click/ two finger click and drag . Zoom In/Out: Scroll or Pinch In/Out . Enter Presentation Mode: Click the icon that is a screen with a play button . Exit Presentation Mode: Click the X . Open Board in New Tab . ",
+    "url": "http://localhost:4000/0_2_miro.html#cloud-web-development-course-content-board",
+    "relUrl": "/0_2_miro.html#cloud-web-development-course-content-board"
+  },"1": {
+    "doc": "Course Content Board",
+    "title": "Course Content Board",
+    "content": " ",
+    "url": "http://localhost:4000/0_2_miro.html",
+    "relUrl": "/0_2_miro.html"
+  },"2": {
+    "doc": "Course 1 Overview",
+    "title": "1.0 Course 1 Overview",
+    "content": "This document will dicuss what we will be learning and doing on Course 1! . ",
+    "url": "http://localhost:4000/1_0_Course1Overview.html#10-course-1-overview",
+    "relUrl": "/1_0_Course1Overview.html#10-course-1-overview"
+  },"3": {
+    "doc": "Course 1 Overview",
+    "title": "Pre-Requisites",
+    "content": "Registrations . | GitHub Account | . Installations . | git CLI | Visual Studio Code) | . ",
+    "url": "http://localhost:4000/1_0_Course1Overview.html#pre-requisites",
+    "relUrl": "/1_0_Course1Overview.html#pre-requisites"
+  },"4": {
+    "doc": "Course 1 Overview",
+    "title": "Course 1 Overview",
+    "content": " ",
+    "url": "http://localhost:4000/1_0_Course1Overview.html",
+    "relUrl": "/1_0_Course1Overview.html"
+  },"5": {
+    "doc": "1.1 Create GitHub Repository",
+    "title": "1.1 Create GitHub Repository",
+    "content": "This tutorial will demonstrate how to create a Github account, create a remote repository and get access to your remote repository on your local device . ",
+    "url": "http://localhost:4000/1_1_CreateRepo.html",
+    "relUrl": "/1_1_CreateRepo.html"
+  },"6": {
+    "doc": "1.1 Create GitHub Repository",
+    "title": "PreRequisites",
+    "content": "Registrations . | GitHub Account | . ",
+    "url": "http://localhost:4000/1_1_CreateRepo.html#prerequisites",
+    "relUrl": "/1_1_CreateRepo.html#prerequisites"
+  },"7": {
+    "doc": "1.1 Create GitHub Repository",
+    "title": "Create a GitHub Repository",
+    "content": ". | . ",
+    "url": "http://localhost:4000/1_1_CreateRepo.html#create-a-github-repository",
+    "relUrl": "/1_1_CreateRepo.html#create-a-github-repository"
+  },"8": {
+    "doc": "1.1 Create GitHub Repository",
+    "title": "Access GitHub repository on your Local Device",
+    "content": ". | . ",
+    "url": "http://localhost:4000/1_1_CreateRepo.html#access-github-repository-on-your-local-device",
+    "relUrl": "/1_1_CreateRepo.html#access-github-repository-on-your-local-device"
+  },"9": {
+    "doc": "1.2 Create Webage with GitHub Pages",
+    "title": "1.2 Create a Public Webpage with GitHub Pages",
+    "content": "This tutorial will show you how to create a publically accessible webpage that you can share with your family and friends using GitHub Pages. ",
+    "url": "http://localhost:4000/1_2_CreateGHPages.html#12-create-a-public-webpage-with-github-pages",
+    "relUrl": "/1_2_CreateGHPages.html#12-create-a-public-webpage-with-github-pages"
+  },"10": {
+    "doc": "1.2 Create Webage with GitHub Pages",
+    "title": "Pre-Requisites",
+    "content": "You should already have the following set up… . Registrations . | GitHub Account | . Installations . | git CLI | . Note: CLI stand for Command Line Interface. These are command we can run in Command Line or Terminal. ",
+    "url": "http://localhost:4000/1_2_CreateGHPages.html#pre-requisites",
+    "relUrl": "/1_2_CreateGHPages.html#pre-requisites"
+  },"11": {
+    "doc": "1.2 Create Webage with GitHub Pages",
+    "title": "Deploy Webpage to GitHub Pages",
+    "content": "Note: If you have already created your Spring Boot application in main or master branch jump down to these steps . | Open Terminal/Command Line | Change directory so you are in the location of your local repository cd &lt;my-repo-dir&gt; . | Run the following commands . | Create a new branch git checkout -b gh-pages git push --set-upstream origin gh-pages . | Get code for webpage git pull https://github.com/blackcodecamp/CloudWebDevelopment.git gh-pages --allow-unrelated-histories --ff . | Type the following to exit the vim/editor window :wq . | Update Remote Repo git push . | . | Navigate to Your Repository in your browser https://github.com/ | In the menu bar under your repository title click on Settings | In the left side menu under Code and Automation select Pages | Under Source select Deploy from a branch | Under Branch select gh-pages | When your page is ready you will see a message at the top of this page under ‘GitHubPages’ that says ‘Your site is live at https://&lt;github-username&gt;.github.io/&lt;your-repo-name&gt;’ | Visit your site! | . If you have already pulled the Spring Boot Application into master follow these steps . | Open terminal | Change directory so you are in the location of your local repository cd &lt;my-repo-dir&gt; . | Run the following command to create an empty branch git switch --orphan gh-pages git commit --allow-empty -m \"New orphan branch\" git push --set-upstream origin gh-pages . | Go to Step 3b. ‘Get code for webpage’ above | . ",
+    "url": "http://localhost:4000/1_2_CreateGHPages.html#deploy-webpage-to-github-pages",
+    "relUrl": "/1_2_CreateGHPages.html#deploy-webpage-to-github-pages"
+  },"12": {
+    "doc": "1.2 Create Webage with GitHub Pages",
+    "title": "1.2 Create Webage with GitHub Pages",
+    "content": " ",
+    "url": "http://localhost:4000/1_2_CreateGHPages.html",
+    "relUrl": "/1_2_CreateGHPages.html"
+  },"13": {
+    "doc": "1.3 Add Styles to Website",
+    "title": "1.3 Add Styles to Website",
+    "content": "We designed a styles resume webpage displayed below. The tutorial below will demonstrate how to replicate this from the shell we have. ",
+    "url": "http://localhost:4000/1_3_0_personalize.html",
+    "relUrl": "/1_3_0_personalize.html"
+  },"14": {
+    "doc": "1.3.1 Get Local Copy of Styled webpage",
+    "title": "1.3.1 Get Local Copy Styled webpage",
+    "content": ". | Run the following to create a new empty branch git switch --orphan gh-pages-styled git commit --allow-empty -m \"New orphan branch\" git push --set-upstream origin gh-pages-styled . | Pull styled code git pull https://github.com/blackcodecamp/CloudWebDevelopment.git gh-pages-styles --allow-unrelated-histories --ff . | Type :wq to exit vim/editor | Open the file called initial.html | We will go together to add the necessary styles to replicate the demo by making initial.html look like complete.html | . ",
+    "url": "http://localhost:4000/1_3_1_PersonalizeCode.html#131-get-local-copy-styled-webpage",
+    "relUrl": "/1_3_1_PersonalizeCode.html#131-get-local-copy-styled-webpage"
+  },"15": {
+    "doc": "1.3.1 Get Local Copy of Styled webpage",
+    "title": "1.3.1 Get Local Copy of Styled webpage",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_1_PersonalizeCode.html",
+    "relUrl": "/1_3_1_PersonalizeCode.html"
+  },"16": {
+    "doc": "1.3.2 Navigation Bar Styles",
+    "title": "1.3.2 Navigation Bar Styles",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_2_NavigationBar.html",
+    "relUrl": "/1_3_2_NavigationBar.html"
+  },"17": {
+    "doc": "1.3.3 Section Styles",
+    "title": "1.3.3 Section Styles",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_2_Sections.html",
+    "relUrl": "/1_3_2_Sections.html"
+  },"18": {
+    "doc": "1.3.5 Other Styles",
+    "title": "1.3.5 Other Styles",
+    "content": "See the CSS Tutorial on W3Schools for more styling opportunities with CSS! . ",
+    "url": "http://localhost:4000/1_3_3_IconsFonts%20copy.html",
+    "relUrl": "/1_3_3_IconsFonts%20copy.html"
+  },"19": {
+    "doc": "1.3.4 Add Font Awesome Icons & Google Fonts",
+    "title": "1.3.4 Add Font Awesome Icons &amp; Google Fonts",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_3_IconsFonts.html#134-add-font-awesome-icons--google-fonts",
+    "relUrl": "/1_3_3_IconsFonts.html#134-add-font-awesome-icons--google-fonts"
+  },"20": {
+    "doc": "1.3.4 Add Font Awesome Icons & Google Fonts",
+    "title": "Add Font Awesome Icons",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_3_IconsFonts.html#add-font-awesome-icons",
+    "relUrl": "/1_3_3_IconsFonts.html#add-font-awesome-icons"
+  },"21": {
+    "doc": "1.3.4 Add Font Awesome Icons & Google Fonts",
+    "title": "Add Google Fonts",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_3_IconsFonts.html#add-google-fonts",
+    "relUrl": "/1_3_3_IconsFonts.html#add-google-fonts"
+  },"22": {
+    "doc": "1.3.4 Add Font Awesome Icons & Google Fonts",
+    "title": "1.3.4 Add Font Awesome Icons & Google Fonts",
+    "content": " ",
+    "url": "http://localhost:4000/1_3_3_IconsFonts.html",
+    "relUrl": "/1_3_3_IconsFonts.html"
+  },"23": {
+    "doc": "Course 2 Overview",
+    "title": "2.0 Course 2 Overview",
+    "content": "This document will dicuss what we will be learning and doing on Course 2. ",
+    "url": "http://localhost:4000/2_0_Course2Overview.html#20-course-2-overview",
+    "relUrl": "/2_0_Course2Overview.html#20-course-2-overview"
+  },"24": {
+    "doc": "Course 2 Overview",
+    "title": "Pre-Requisites",
+    "content": "Registrations . | Github Account | . Downloads . Installations . | git CLI | Docker Deskop &amp; CLI (docker) | Tanzu Community Edition CLI (tanzu) | Kubernetes CLI (kubectl) | . ",
+    "url": "http://localhost:4000/2_0_Course2Overview.html#pre-requisites",
+    "relUrl": "/2_0_Course2Overview.html#pre-requisites"
+  },"25": {
+    "doc": "Course 2 Overview",
+    "title": "Course 2 Overview",
+    "content": " ",
+    "url": "http://localhost:4000/2_0_Course2Overview.html",
+    "relUrl": "/2_0_Course2Overview.html"
+  },"26": {
+    "doc": "2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR",
+    "title": "2.1 Deploy Spring Boot App Locally with Tanzu Community Edition (TCE), Kubernetes and GitHub Container Registry(GHCR)",
+    "content": "This tutorial will demonstrate the following . ",
+    "url": "http://localhost:4000/2_1_0_TCELocalDeploy.html#21-deploy-spring-boot-app-locally-with-tanzu-community-edition-tce-kubernetes-and-github-container-registryghcr",
+    "relUrl": "/2_1_0_TCELocalDeploy.html#21-deploy-spring-boot-app-locally-with-tanzu-community-edition-tce-kubernetes-and-github-container-registryghcr"
+  },"27": {
+    "doc": "2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR",
+    "title": "2.1 Deploy Spring Boot App Locally with TCE, Kubernetes and GHCR",
+    "content": " ",
+    "url": "http://localhost:4000/2_1_0_TCELocalDeploy.html",
+    "relUrl": "/2_1_0_TCELocalDeploy.html"
+  },"28": {
+    "doc": "2.1.1 Access the Spring Boot Application",
+    "title": "2.1.1 Access the Spring Boot Application",
+    "content": "This tutorial demostrates how to get a local copy of the Spring Boot Application for this project that is stored in a GitHub Repository. ",
+    "url": "http://localhost:4000/2_1_1_PullSBApp.html",
+    "relUrl": "/2_1_1_PullSBApp.html"
+  },"29": {
+    "doc": "2.1.1 Access the Spring Boot Application",
+    "title": "Pre-Requisites",
+    "content": "Registrations . | GitHub Account | . Installations . | git CLI | IDE (IntelliJ Community or Visual Studio Code) | . ",
+    "url": "http://localhost:4000/2_1_1_PullSBApp.html#pre-requisites",
+    "relUrl": "/2_1_1_PullSBApp.html#pre-requisites"
+  },"30": {
+    "doc": "2.1.1 Access the Spring Boot Application",
+    "title": "Access the Spring Boot Application",
+    "content": ". | Open your IDE (IntelliJ or VS Code) | Open the folder containing your local repository | Open the terminal in your IDE | Run the following commands . | Make sure you are in the main or master branch (Note: There will be a * next to the branch you are in) git branch . | If not, run the following command (master or main) git checkout master . | Get a local copy of the code git pull https://github.com/blackcodecamp/CloudWebDevelopment.git . | See the code files ls . | Update your remote repository git push . | . | . ",
+    "url": "http://localhost:4000/2_1_1_PullSBApp.html#access-the-spring-boot-application",
+    "relUrl": "/2_1_1_PullSBApp.html#access-the-spring-boot-application"
+  },"31": {
+    "doc": "2.1.2 Create Docker Container Image of your Application",
+    "title": "2.1.1 Create Docker Container Image of your Application",
+    "content": "This tutorial demostrates how to create a Docker Container Image of your Spring Boot Application. ",
+    "url": "http://localhost:4000/2_1_2_CreateImage.html#211-create-docker-container-image-of-your-application",
+    "relUrl": "/2_1_2_CreateImage.html#211-create-docker-container-image-of-your-application"
+  },"32": {
+    "doc": "2.1.2 Create Docker Container Image of your Application",
+    "title": "Pre-Requisites",
+    "content": "Installations . | Docker Deskop &amp; CLI | IDE (IntelliJ Community or Visual Studio Code) | . ",
+    "url": "http://localhost:4000/2_1_2_CreateImage.html#pre-requisites",
+    "relUrl": "/2_1_2_CreateImage.html#pre-requisites"
+  },"33": {
+    "doc": "2.1.2 Create Docker Container Image of your Application",
+    "title": "Create Docker Image",
+    "content": ". | Open your IDE | Open the folder container your Spring Boot Application | Open the Terminal in your IDE | Run the following commands . | Create a new executeable file (.jar) of your app ./mvnw clean install . | Build a Docker Image called ‘resume-image’ from your project . (Note: You must include the . at the end) . docker build -t resume-image . | See that your image was created docker image ls . | . | Keep track of your image name! | . ",
+    "url": "http://localhost:4000/2_1_2_CreateImage.html#create-docker-image",
+    "relUrl": "/2_1_2_CreateImage.html#create-docker-image"
+  },"34": {
+    "doc": "2.1.2 Create Docker Container Image of your Application",
+    "title": "2.1.2 Create Docker Container Image of your Application",
+    "content": " ",
+    "url": "http://localhost:4000/2_1_2_CreateImage.html",
+    "relUrl": "/2_1_2_CreateImage.html"
+  },"35": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "content": "This tutorial will demonstrate how to (1) activate GitHub Container Registry from your local device, (2) push an image to GHCR and (3) make that image public. ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html",
+    "relUrl": "/2_1_3_GHCR.html"
+  },"36": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "Pre-Requisites",
+    "content": "Registrations . | GitHub Account | . Installations . | Docker Deskop &amp; CLI (docker) | . ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html#pre-requisites",
+    "relUrl": "/2_1_3_GHCR.html#pre-requisites"
+  },"37": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "Activate GitHub Container Registry",
+    "content": ". | Navigate to GitHub Personal Access Token Creation Form | Set Note to GitHubContainerRegistry | Set Expiration to No expiration | Select the following Scopes . write:packages delete:packages . | Scroll Down and click Generate Token | Copy your Access Token | Open Terminal | Follow Mac Instructions or Windows Instructions to add GHCR Token to Environment variables | . ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html#activate-github-container-registry",
+    "relUrl": "/2_1_3_GHCR.html#activate-github-container-registry"
+  },"38": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "Add GHCR Token to Mac Environment Variables",
+    "content": ". | Run the following commands . | Add Token to Temporary Environment Variables . export CR_PAT=&lt;your-token&gt; . | Token as an Environment Variables permanently . Mac Instructions . Note: Depends on the type of shell you are running bash (.bash_profile) or zsh (.zshrc) . echo \"\\nexport CR_PAT=$CR_PAT\" &gt;&gt; ~/.zshrc . or . echo \"\\nexport CR_PAT=$CR_PAT\" &gt;&gt; ~/.bash_profile . | Quit and Reopen Terminal . | Make sure this has been added to your Environment . echo $CR_PAT . | Apply Token . echo $CR_PAT | docker login ghcr.io -u &lt;your-username&gt; --password-stdin . | . | . ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html#add-ghcr-token-to-mac-environment-variables",
+    "relUrl": "/2_1_3_GHCR.html#add-ghcr-token-to-mac-environment-variables"
+  },"39": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "Add GHCR Token to Windows Environment Variables",
+    "content": ". | Open Control Panel | Click System | Click Advanced system settings | Click to the Advanced tab | Click Environment variables | Choose System Variables | Choose New | Enter the variable Name as ‘CR_PAT’ and Value as your GHCR token | Quit Command Line/CMD if its running Restart Command Line/CMD | Run the following command to make sure this has been added to your Environment set CR_PAT . | . ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html#add-ghcr-token-to-windows-environment-variables",
+    "relUrl": "/2_1_3_GHCR.html#add-ghcr-token-to-windows-environment-variables"
+  },"40": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "Push Image to GitHub Container Registry",
+    "content": ". | Tag your Image locally docker tag &lt;image-name&gt;:latest ghcr.io/&lt;github-username&gt;/resume-image:latest . | Run the following command to push your image to GitHub Container Registry docker push ghcr.io/&lt;github-username&gt;/resume-image:latest . | Run the following command to test that your image successfully pushed docker inspect ghcr.io/&lt;github-username&gt;/resume-image . | . ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html#push-image-to-github-container-registry",
+    "relUrl": "/2_1_3_GHCR.html#push-image-to-github-container-registry"
+  },"41": {
+    "doc": "2.1.3 Deploy a Public Image to GitHub Container Registry",
+    "title": "Make your Image Public",
+    "content": ". | Navigate to your GitHub Packages from your Github Profile | Select your image | On the right side click Package Settings | Scroll down to Danger Zone | Next to Change package visibility, Click Change Visibility | Select Public | Complete steps for confirmation | Go back to your Packages | Make sure the label Private is not on your image | . ",
+    "url": "http://localhost:4000/2_1_3_GHCR.html#make-your-image-public",
+    "relUrl": "/2_1_3_GHCR.html#make-your-image-public"
+  },"42": {
+    "doc": "2.1.4 Create a Unmanaged Cluster using Tanzu Community Edition",
+    "title": "Create a Unmanaged Cluster using Tanzu Community Edition",
+    "content": "This tutorial will demonstrate how to create an unmanaged cluster using Tanzu Community Edition. ",
+    "url": "http://localhost:4000/2_1_4_TanzuUC.html#create-a-unmanaged-cluster-using-tanzu-community-edition",
+    "relUrl": "/2_1_4_TanzuUC.html#create-a-unmanaged-cluster-using-tanzu-community-edition"
+  },"43": {
+    "doc": "2.1.4 Create a Unmanaged Cluster using Tanzu Community Edition",
+    "title": "Pre-Requisites",
+    "content": "Installations . | Docker Destop &amp; CLI (docker) | Tanzu Community Edition CLI (tanzu) | . ",
+    "url": "http://localhost:4000/2_1_4_TanzuUC.html#pre-requisites",
+    "relUrl": "/2_1_4_TanzuUC.html#pre-requisites"
+  },"44": {
+    "doc": "2.1.4 Create a Unmanaged Cluster using Tanzu Community Edition",
+    "title": "Create an Unmanaged Cluster",
+    "content": ". | Open Docker Desktop | Open Terminal | Run the following command to create an unmanaged cluster called ‘resume-cluster’ tanzu unmanaged-cluster create resume-cluster . | Watch Docker Desktop for the container to start | Run the following command to see that your cluster has been created and is running tanzu unmanaged-cluster list . | Keep track of your cluster name! | . ",
+    "url": "http://localhost:4000/2_1_4_TanzuUC.html#create-an-unmanaged-cluster",
+    "relUrl": "/2_1_4_TanzuUC.html#create-an-unmanaged-cluster"
+  },"45": {
+    "doc": "2.1.4 Create a Unmanaged Cluster using Tanzu Community Edition",
+    "title": "2.1.4 Create a Unmanaged Cluster using Tanzu Community Edition",
+    "content": " ",
+    "url": "http://localhost:4000/2_1_4_TanzuUC.html",
+    "relUrl": "/2_1_4_TanzuUC.html"
+  },"46": {
+    "doc": "2.1.5 Deploy GHCR Image to Tanzu Unmanaged Cluster using Kubernetes",
+    "title": "2.1.5 Deploy GHCR Image to Tanzu Unmanaged Cluster using Kubernetes",
+    "content": "This tutorial will demonstrate how to deploy the image of the Spring Boot Application that we pushed to GHCR to the unmanaged cluster we created with Tanzu Community Edition using Kubernetes. ",
+    "url": "http://localhost:4000/2_1_5_KubeDeploy.html",
+    "relUrl": "/2_1_5_KubeDeploy.html"
+  },"47": {
+    "doc": "2.1.5 Deploy GHCR Image to Tanzu Unmanaged Cluster using Kubernetes",
+    "title": "Pre-Requisites",
+    "content": "Installations . | Kubernetes CLI (kubectl) | . ",
+    "url": "http://localhost:4000/2_1_5_KubeDeploy.html#pre-requisites",
+    "relUrl": "/2_1_5_KubeDeploy.html#pre-requisites"
+  },"48": {
+    "doc": "2.1.5 Deploy GHCR Image to Tanzu Unmanaged Cluster using Kubernetes",
+    "title": "Deploy To Unmanaged Cluster using Kubernetes using your Image",
+    "content": ". | Open your IDE to your Spring Boot Application | Open kubernetes.yaml | Set spec.containers:image: to the link to your image like below ... spec: containers: - image: ghcr.io/&lt;github-username&gt;/resume-image:latest ..... | Open Terminal | Run the following commands . | See that your unmanaged cluster has been created as a Kubernetes in Docker or KinD cluster . (Note: The name of your Kubernetes Context with be kind-clusterName) . kubectl config get-contexts . | Set the Kubernetes context to your unmanaged cluster . kubectl config use-context kind-resume-cluster . | Create a Kubernetes Pod based on your Spring Boot App Image kubectl create -f kubernetes.yaml . | See that your Kubernetes Pod has been created kubectl get pods . | Connect your Kubernetes Pod port (8080) to your local host port (8080) kubectl port-forward resume-app-pod 8080:8080 . | . | Open http://localhost:8080 in your browser! | . ",
+    "url": "http://localhost:4000/2_1_5_KubeDeploy.html#deploy-to-unmanaged-cluster-using-kubernetes-using-your-image",
+    "relUrl": "/2_1_5_KubeDeploy.html#deploy-to-unmanaged-cluster-using-kubernetes-using-your-image"
+  },"49": {
+    "doc": "2.2 Deploy Spring Boot App Locally with Docker Compose",
+    "title": "2.2 Deploy Your Spring Boot Application Loaclly using Docker Compose",
+    "content": "This tutorial will show you how to use docker compose to build images and containers that will deploy your Spring Boot Application on your local device. ",
+    "url": "http://localhost:4000/2_2_DeployCompose.html#22-deploy-your-spring-boot-application-loaclly-using-docker-compose",
+    "relUrl": "/2_2_DeployCompose.html#22-deploy-your-spring-boot-application-loaclly-using-docker-compose"
+  },"50": {
+    "doc": "2.2 Deploy Spring Boot App Locally with Docker Compose",
+    "title": "PreRequisites",
+    "content": "Installations . | git CLI | Docker Desktop &amp; CLI (Mac/Windows) | Docker Deskop &amp; CLI | . ",
+    "url": "http://localhost:4000/2_2_DeployCompose.html#prerequisites",
+    "relUrl": "/2_2_DeployCompose.html#prerequisites"
+  },"51": {
+    "doc": "2.2 Deploy Spring Boot App Locally with Docker Compose",
+    "title": "Deploy Spring Boot Application Locally",
+    "content": ". | Open your IDE (IntelliJ or VS Code) | Open the folder containing your local repository | Open the terminal in your ide | Run the following commands . | Get a local copy of the code git pull https://github.com/morganiverson/mycontact/tree/master . | Update your remote repository git push . | . | Run the following command to start your Docker app docker-compose up . Note: you must be in the same directory as your Dockerfile and docker-compose.yaml. Use the command ls to check and cd to change directories) . | While you wait… . | Open http://localhost:6868/ in browser | Open Docker Desktop | . | When you are done exploring… . | Press CNTL + C | Run the following command docker-compose down . | . | . ",
+    "url": "http://localhost:4000/2_2_DeployCompose.html#deploy-spring-boot-application-locally",
+    "relUrl": "/2_2_DeployCompose.html#deploy-spring-boot-application-locally"
+  },"52": {
+    "doc": "2.2 Deploy Spring Boot App Locally with Docker Compose",
+    "title": "2.2 Deploy Spring Boot App Locally with Docker Compose",
+    "content": " ",
+    "url": "http://localhost:4000/2_2_DeployCompose.html",
+    "relUrl": "/2_2_DeployCompose.html"
+  },"53": {
+    "doc": "2.3 Explore Docker",
+    "title": "2.3 Explore Docker",
+    "content": "This tutorial will show you haw to explore the infrasturture of your locally deployed Spring Boot Application . ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html",
+    "relUrl": "/2_3_ExploreDocker.html"
+  },"54": {
+    "doc": "2.3 Explore Docker",
+    "title": "PreRequisites",
+    "content": " ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html#prerequisites",
+    "relUrl": "/2_3_ExploreDocker.html#prerequisites"
+  },"55": {
+    "doc": "2.3 Explore Docker",
+    "title": "Installations",
+    "content": " ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html#installations",
+    "relUrl": "/2_3_ExploreDocker.html#installations"
+  },"56": {
+    "doc": "2.3 Explore Docker",
+    "title": "File System",
+    "content": ". | . ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html#file-system",
+    "relUrl": "/2_3_ExploreDocker.html#file-system"
+  },"57": {
+    "doc": "2.3 Explore Docker",
+    "title": "Containers, Images and Volumes",
+    "content": ". | . ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html#containers-images-and-volumes",
+    "relUrl": "/2_3_ExploreDocker.html#containers-images-and-volumes"
+  },"58": {
+    "doc": "2.3 Explore Docker",
+    "title": "What does a Dockerfile do?",
+    "content": ". | . ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html#what-does-a-dockerfile-do",
+    "relUrl": "/2_3_ExploreDocker.html#what-does-a-dockerfile-do"
+  },"59": {
+    "doc": "2.3 Explore Docker",
+    "title": "What does the docker-compose.yml file do?",
+    "content": ". | . ",
+    "url": "http://localhost:4000/2_3_ExploreDocker.html#what-does-the-docker-composeyml-file-do",
+    "relUrl": "/2_3_ExploreDocker.html#what-does-the-docker-composeyml-file-do"
+  },"60": {
+    "doc": "Course 3 Overview",
+    "title": "3.0 Course 3 Overview",
+    "content": "This document will dicuss what we will be learning and doing on Course 3. ",
+    "url": "http://localhost:4000/3_0_Course3Overview.html#30-course-3-overview",
+    "relUrl": "/3_0_Course3Overview.html#30-course-3-overview"
+  },"61": {
+    "doc": "Course 3 Overview",
+    "title": "Pre-Requisites",
+    "content": "Registrations . | GitHub Account | HubSpot Account | . Installations . | git CLI | Visual Studio Code) | . ",
+    "url": "http://localhost:4000/3_0_Course3Overview.html#pre-requisites",
+    "relUrl": "/3_0_Course3Overview.html#pre-requisites"
+  },"62": {
+    "doc": "Course 3 Overview",
+    "title": "Course 3 Overview",
+    "content": " ",
+    "url": "http://localhost:4000/3_0_Course3Overview.html",
+    "relUrl": "/3_0_Course3Overview.html"
+  },"63": {
+    "doc": "3.1 Implement HubSpot Website Analytics Reports",
+    "title": "3.1 Implement HubSpot Website Analytics Reports",
+    "content": "This tutorial is going to demostrate how to integrate and utilize HubSpot in your personal webpage. ",
+    "url": "http://localhost:4000/3_1_hubspot.html",
+    "relUrl": "/3_1_hubspot.html"
+  },"64": {
+    "doc": "3.1 Implement HubSpot Website Analytics Reports",
+    "title": "HubSpot Website Analytics Dashboard",
+    "content": "HubSpot provides the capability to develop custom dashboards or use dashboard templates to centralize reports on Marketing, Sales, Services and Websites. This tutorial will demonstrate how to create a Website Analytics Dashboard. ",
+    "url": "http://localhost:4000/3_1_hubspot.html#hubspot-website-analytics-dashboard",
+    "relUrl": "/3_1_hubspot.html#hubspot-website-analytics-dashboard"
+  },"65": {
+    "doc": "3.1 Implement HubSpot Website Analytics Reports",
+    "title": "Add Tracking Code to Webpage",
+    "content": ". | Open your index.html file in your IDE . | You may have to change your branch | Open Terminal in IDE | Run the following command to get into the branch where your code is git checkout gh-pages . | . | Open your Hubspot Console (Click ‘Go to my account’) | Click your Profile Icon (in the upper right corner) | Click Profile &amp; Preferences | Under Account Set Up click Tracking Code | Click Copy | Paste the code in your index.html file in between the &lt;head&gt;&lt;/head&gt; tags | . ",
+    "url": "http://localhost:4000/3_1_hubspot.html#add-tracking-code-to-webpage",
+    "relUrl": "/3_1_hubspot.html#add-tracking-code-to-webpage"
+  },"66": {
+    "doc": "3.1 Implement HubSpot Website Analytics Reports",
+    "title": "Create Dashboard",
+    "content": ". | Open your Hubspot Console (Click ‘Go to my account’) | In the menu click ‘Reports’, ‘Dashboards’ | Scroll down and click ‘Website Analytics’, ‘Next’ | Click ‘Create Dashboard’ | Click ‘Exit’ | . ",
+    "url": "http://localhost:4000/3_1_hubspot.html#create-dashboard",
+    "relUrl": "/3_1_hubspot.html#create-dashboard"
+  },"67": {
+    "doc": "3.1 Implement HubSpot Website Analytics Reports",
+    "title": "View Dashboard",
+    "content": ". | Open your Hubspot Console (Click ‘Go to my account’) | In the menu click ‘Reports’, ‘Dashboards’ | The ‘Website Analytics’ Dashboard should be open | To change Dashboards click teh title of the current dashboard and select the dashboard you want to view | . ",
+    "url": "http://localhost:4000/3_1_hubspot.html#view-dashboard",
+    "relUrl": "/3_1_hubspot.html#view-dashboard"
+  },"68": {
+    "doc": "3.2 Embed HubSpot Forms",
+    "title": "3.2 Embed HubSpot Forms",
+    "content": "This tutorial is going to demostrate how to integrate and utilize HubSpot in your personal webpage. ",
+    "url": "http://localhost:4000/3_2_hubspot_forms.html",
+    "relUrl": "/3_2_hubspot_forms.html"
+  },"69": {
+    "doc": "3.2 Embed HubSpot Forms",
+    "title": "HubSpot Marketing Forms",
+    "content": "HubSpot provides the capability to create custom forms for the purposes of registration, contact, support and more. Every form you create you can select what contact, company, ticket or other properties you need. This tutorial demonstrates how to create a HubSpot form and embed that form onto your webpage. ",
+    "url": "http://localhost:4000/3_2_hubspot_forms.html#hubspot-marketing-forms",
+    "relUrl": "/3_2_hubspot_forms.html#hubspot-marketing-forms"
+  },"70": {
+    "doc": "3.2 Embed HubSpot Forms",
+    "title": "Create &amp; Embed Form",
+    "content": ". | Open your Hubspot Console (Click ‘Go to my account’) | In the menu cllick ‘Marketing, ‘Forms’ | Click ‘Create a free form’ | Select ‘Embedded form’ and click ‘Next’ | Select ‘Blank template’ and click ‘Start’ | Click and drag ‘Email’, ‘First name’, ‘Last name’, ‘Phone Number’ and ‘Message’Fields into your form | Hover over ‘First name’ | Click ‘More’, ‘Make Required’ | Do the same for ‘Email’ and ‘Message’ | Click ‘Update’, ‘Publish’ | Click the ‘Embed code’ tab, ‘Copy’ | Open your index.html file in your IDE . | You may have to change your branch | Open Terminal in IDE | Run the following command to get into the branch where your code is git checkout gh-pages . | . | Paste the code in your index.html file above the &lt;/body&gt; tag | . ",
+    "url": "http://localhost:4000/3_2_hubspot_forms.html#create--embed-form",
+    "relUrl": "/3_2_hubspot_forms.html#create--embed-form"
+  },"71": {
+    "doc": "3.2 Embed HubSpot Forms",
+    "title": "Push code to GitHub website",
+    "content": ". | Open Terminal in IDE . | Run the following command to get into the branch where your code is git checkout gh-pages . | . | Run the following commands . | Add code to staging area (local changes are tracked) . | Record file in version history | Send changes to remote repository (where your website is built from) | . | Wait about 1 minute for git to build your webpae and open your link &lt;github-username&gt;.github.io/&lt;repository-name&gt; | Send a test submission of your form! | . ",
+    "url": "http://localhost:4000/3_2_hubspot_forms.html#push-code-to-github-website",
+    "relUrl": "/3_2_hubspot_forms.html#push-code-to-github-website"
+  },"72": {
+    "doc": "3.2 Embed HubSpot Forms",
+    "title": "See Form Submissions",
+    "content": ". | Open your Hubspot Console (Click ‘Go to my account’) | In the menu cllick ‘Marketing, ‘Forms’ | Select your form | Click the ‘Submissions’ tab | . ",
+    "url": "http://localhost:4000/3_2_hubspot_forms.html#see-form-submissions",
+    "relUrl": "/3_2_hubspot_forms.html#see-form-submissions"
+  },"73": {
+    "doc": "3.3 Integrate Features into Website",
+    "title": "3.3 Integrate Features into your Webpage",
+    "content": "This tutorial will demonstrate how to integrate various features into your webpage. Add styles on Day 1 or Day 3? . See 1.3 Add Styles to Website and Sample Styled Website . ",
+    "url": "http://localhost:4000/3_3_integrate.html#33-integrate-features-into-your-webpage",
+    "relUrl": "/3_3_integrate.html#33-integrate-features-into-your-webpage"
+  },"74": {
+    "doc": "3.3 Integrate Features into Website",
+    "title": "3.3 Integrate Features into Website",
+    "content": " ",
+    "url": "http://localhost:4000/3_3_integrate.html",
+    "relUrl": "/3_3_integrate.html"
+  },"75": {
+    "doc": "Course Introduction",
+    "title": "Cloud Web Development Course",
+    "content": " ",
+    "url": "http://localhost:4000/#cloud-web-development-course",
+    "relUrl": "/#cloud-web-development-course"
+  },"76": {
+    "doc": "Course Introduction",
+    "title": "0.0 Introduction",
+    "content": "The goal of the myContact project is to expose students to various aspects of the dev/ops process over a 3 day period. This exposure hits coding, infrastructure, trouble shooting and integration with other technologies such as HubSpot marketing platform. Students will be given tasks and sub projects with the goal of deploying an application that displays a web page that delivers the students resume to the user of this application. Through this process the student will be exposed to Tanzu application service and entry level Spring Boot Java coding, wrapped in the dev/ops fail fast process. ",
+    "url": "http://localhost:4000/#00-introduction",
+    "relUrl": "/#00-introduction"
+  },"77": {
+    "doc": "Course Introduction",
+    "title": "Milestones",
+    "content": "M1: Course 1 “Do” . Students will be introduced to the project and course materials. The students will create GitHub accounts and setup their computers with the proper tools to enable coding and deployment of the application to the Tanzu application service. | Coding environment and tools downloaded and installed on Virtual Machine or laptop . | Setup Tanzu application service account and workspaces . | Introduction to coding snippets and code adjustments . | Code application using HTML deploy and test, repeat. | . Expected Outcome: . | Students will have a Tanzu application account . | Students will create a Github account to copy code . | Students will pull code and personalize code with their resume data . | Students will be familiar with developing and testing code with” cf push” . | . M2: Course 2 “Understand” . We will explore the mechanics of the technology and how it works and map the actions to “what they are doing in course 1” to what the technical processes are in the technology. | Concepts Docker/Containers . | Kubernetes Concepts . | Development and Operations (Dev/Ops) . | . Expected Outcome: . | Students understand the technology . | Students can explain the technology (Presentations Possibly) . | . M3: Course 3 “Integrate” . Students will learn how to integrate their resume website with HubSpot marketing platform to collect statistics, on website hits and links. Also, an opportunity to link their website to other services as well to make the experience richer. Then present their project and what they learned and give feedback to us . | Setup HubSpot Account. | Integrate HubSpot code into site. | Collect test stats . | Creative services (optional) . | Present Project . | . Expected Outcome: . | HubSpot Integration . | Statistics Collection . | . ",
+    "url": "http://localhost:4000/#milestones",
+    "relUrl": "/#milestones"
+  },"78": {
+    "doc": "Course Introduction",
+    "title": "Course Introduction",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  }
+}

@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-/Users/jjason/Development/spring/mycontact/src/main/java/io/mycontact/web/controller/MainController.java
-/Users/jjason/Development/spring/mycontact/src/main/java/io/mycontact/web/MycontactApplication.java
-=======
-/Users/miverson/blackcomm/mycontact/src/main/java/io/mycontact/web/MyContactApplication.java
-/Users/miverson/blackcomm/mycontact/src/main/java/io/mycontact/web/MainController.java
->>>>>>> 6a8675ce0ab01ec03bda8f75b5d37c963c8f0f1d
+/Users/miverson/black@/howard/CloudWebDevelopment/src/main/java/io/mycontact/web/Application.java
+/Users/miverson/black@/howard/CloudWebDevelopment/src/main/java/io/mycontact/web/MainController.java

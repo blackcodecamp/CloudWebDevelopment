@@ -1,9 +1,16 @@
-# mycontact
-## Internet Contact and mini-Resume App made in springboot
-This app is a simple SpringBoot application that produces a webpage to display some interesting things about you in a JSON format. 
-It was a good way for me to learn springboot and produce something useful in the end. 
-I must refernce my good friend's site for the idea as his site was very cool and it gave me something to build on my own to learn! 
-[Dapeng](http://www.verydapeng.com)
+# Cloud Web Development Course Series for Howard University
+A course series introducing HTML web and Spring Boot app development, deployment using GitHub Pages, Docker, Kubetnetes and Tanzu Community Edition, and integration with HubSpot CRM. 
 
-I' will provide more deatiled instructions when its complete with bootstrap formatting.
+## Spring Boot App ('master')
+This app contains the follwoing 
+* A Spring Boot Application that hosts a simple html website
+* A kubernetes.yaml file to facilitate local deployment using Tanzu Community Edition, Kubernetes and GitHub Container Registry
+*  A Dockerfile and a docker-compose.yaml file to facilitate local deployments using the docker-compose command
+
+The instructions to perform operations with these files are in teh Course 2 section of the course documentation. 
+
+[See Documentation](https://blackcodecamp.github.io/CloudWebDevelopment/)
+
+
+
 
