@@ -5,7 +5,7 @@ parent: Course 2 Overview
 nav_order: 3
 ---
 # 2.3 Explore Docker
-This tutorial will show you haw to explore the infrasturture of your locally deployed Spring Boot Application
+This tutorial will show you how to explore the container of your locally deployed Spring Boot Application
 
 ## PreRequisites
 ## Installations
