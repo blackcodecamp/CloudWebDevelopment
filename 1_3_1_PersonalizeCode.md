@@ -21,7 +21,7 @@ grand_parent: Course 1 Overview
 4. Open the file called `initial.html` in Visual Studio Code
 5. In the Explorer Menu to the right, Right click or Two finger click `initial.html`, click `Open with Live Server`
 
-Your browser window should open showing exactly what your 
+Your browser window should open showing exactly what your webpage looks like!
 
 
 5. We will go together to add the necessary styles to replicate the demo by making `initial.html` look like `complete.html`

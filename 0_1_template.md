@@ -1,5 +1,3 @@
-
-
 # Tutorial Template
 This tutorial ...
 
