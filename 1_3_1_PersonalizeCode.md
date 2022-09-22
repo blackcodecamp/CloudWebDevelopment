@@ -18,5 +18,10 @@ grand_parent: Course 1 Overview
     git pull https://github.com/blackcodecamp/CloudWebDevelopment.git gh-pages-styles --allow-unrelated-histories --ff
     ```
 3. Type `:wq` to exit vim/editor
-4. Open the file called `initial.html`
+4. Open the file called `initial.html` in Visual Studio Code
+5. In the Explorer Menu to the right, Right click or Two finger click `initial.html`, click `Open with Live Server`
+
+Your browser window should open showing exactly what your 
+
+
 5. We will go together to add the necessary styles to replicate the demo by making `initial.html` look like `complete.html`
