@@ -8,7 +8,13 @@ nav_order: 3
 This tutorial will show you how to explore the container of your locally deployed Spring Boot Application.
 
 ## PreRequisites
+* Source Application Code (optional if you plan to containerize and interact with your own code)
+* [Docker Desktop](https://docs.docker.com/get-docker/)
+
 ## Installations
+* [Kubernetes CLI (kubectl)](https://kubernetes.io/docs/tasks/tools/)
+* [Docker CLI (docker)](https://docs.docker.com/get-docker/)
+* Note: Docker CLI may have installed with your Docker Desktop local installation. Run "docker" to confirm its installed. 
 
 ## File System
 1. 
