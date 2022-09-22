@@ -15,12 +15,17 @@ This tutorial will demonstrate how to create a Github account, create a remote r
 2. Follow the instructions during the sign up process on github.
 
 ## Create a GitHub Repository
-1. when logged into your new account, click the green "New" button on the top left corner of your githib portal. 
+1. When logged into your new account, click the green "New" button on the top left corner of your githib portal. 
 2. Name your repository somthing unique. Example "mycoolresumeapp"
 3. Make your repository public
 4. Add a "Readme" so check the box. 
-5. click create the repository
+5. Click create the repository
 
 ## Access GitHub repository on your Local Device
-1. Configure github cli tools connect to your account. 
-2. gti clone at your command line
+In this section you will configure your "git" command line tool to access your github account. This will enable you to pull our public repository and then push the code to your repository in your account. Lets get started. The git command line tool should be installed on your system. If not please installe the tool by following the instrcutions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+Configure github cli tools connect to your account. 
+Run the below commands. Remember, replace the variables in single quotes with your account information.
+1. `git config --global user.name 'Jane Doe'`  --  This command sets your user name for your github account for the tool to use when logging in. 
+2. `git config --global user.email 'jane@example.com'` -- This command sets your email address for your github account  to use when logging in.
+3. `git config --global --list` -- This command list the variables you just set. 
+
