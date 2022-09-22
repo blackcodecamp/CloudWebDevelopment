@@ -9,8 +9,7 @@ This app contains the follwoing
 
 The instructions to perform operations with these files are in teh Course 2 section of the course documentation. 
 
-[See Documentation](https://blackcodecamp.github.io/CloudWebDevelopment/)
-<a href="https://blackcodecamp.github.io/CloudWebDevelopment/" target = "_blank">See Documentation>/a> {: .btn}
+<a href="https://blackcodecamp.github.io/CloudWebDevelopment/" target = "_blank">See Documentation</a> 
 
 
 
