@@ -15,7 +15,7 @@ This tutorial will demonstrate how to create a Github account, create a remote r
 2. Follow the instructions during the sign up process on github.
 
 ## Create a GitHub Repository
-1. When logged into your new account, click the green "New" button on the top left corner of your githib portal. 
+1. When logged into your new account, click the green !["New"](https://github.com/jjovah/huappimg/blob/main/greenb.png) button on the top left corner of your githib portal. 
 2. Name your repository somthing unique. Example "mycoolresumeapp"
 3. Make your repository public
 4. Add a "Readme" so check the box. 
