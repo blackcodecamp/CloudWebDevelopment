@@ -21,18 +21,21 @@ A file system, as it relates to Docker, is a file local to the application (your
 
 The following commands are available for a docker file and more information can be viewed in the [DockerFile reference guide](https://docs.docker.com/engine/reference/builder/):
 
-`FROM - specifies the base(parent) image. Alpine version is the minimal docker image based on Alpine Linux which is only 5mb in size.
-RUN - runs a Linux command. Used to install packages into container, create folders, etc=
-ENV - sets environment variable. We can have multiple variables in a single dockerfile.
+```
+FROM - specifies the base image used to build the image. For example, an Ubuntu image vs. an alpine image. 
+RUN - runs available Linux commands. 
+ENV - is used to set an environment variable. 
 COPY - copies files and directories to the container.
 EXPOSE - expose ports
-ENTRYPOINT - provides command and arguments for an executing container.
+ENTRYPOINT - passes command and arguments to be executed in the running container.
 CMD - provides a command and arguments for an executing container. There can be only one CMD.
 VOLUME - create a directory mount point to access and store persistent data.
 WORKDIR - sets the working directory for the instructions that follow.
 LABEL - provides metada like maintainer.
 ADD - Copies files and directories to the container. Can unpack compressed files.
-ARG - Define build-time variable.`
+ARG - Define build-time variable.
+
+```
 
 ## Containers, Images and Volumes
 1. 
