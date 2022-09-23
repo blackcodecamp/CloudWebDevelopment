@@ -44,5 +44,5 @@ ARG - Define build-time variable.
 1. 
 
 ## What does the `docker-compose.yml` file do?
-1. 
+The docker-compose. yml is a config file for Docker Compose that enables you to deploy multiple docker containers at the same time. Compose is typically compared to Kubernetes, as they are both orchestrators. However, docker compose runs on a single host and Kubernetes orchestrates containers across multiple hosts. They both maintain the same end goal, running and maintaing multiple containers. 
 
