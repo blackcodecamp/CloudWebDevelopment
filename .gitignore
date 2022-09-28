@@ -1,0 +1,9 @@
+.idea/*
+.m2/*
+.settings/*
+_site
+target
+.idea
+Gemfile
+Gemfile.lock
+.DS_Store
