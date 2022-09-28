@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>John Smith</title>
+    <!-- This shows on the Browser Tab --> 
+
+    <!-- MOBILE RESPONSIVENESS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS IMPORTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">    
+    
+    <style>
+      /*
+      #id-style {
+        This sets the style for any tag with 
+        <tag id = "id-style"></tag>.
+        There can only be one item with one id.
+      }
+      .class-style {
+        This sets the style for any tag with 
+        <tag class = "class-style"></tag>.
+        Many items can have the same class
+      }
+      tag {
+        This sets the style for all elements <tag></tag>
+      }
+      */
+
+      /* CSS Variables: Reference using var(--var-name) */
+      :root {
+        --main-color: rgba(126, 159, 178);
+        --section-text-color: black;
+        --nav-bar-color: rgba(126, 159, 178, .8);
+      }
+      /* Note: You can use https://htmlcolorcodes.com/color-picker/ to find the rgb values of any color you want! */
+
+      html, body {
+        padding: 0; /* Space between borders and elements inside */
+        margin: 0; /* Space outisde container */
+        font-family: Monserrat, Helvetica, sans-serif; /* Font Family (Google Import) */
+        font-weight: 200; /* Boldness/Thinness of text (400 = Regular Weight) */
+      }
+
+      /* Page Title Settings */
+      #page-title {
+        font-size: 20px; /* Font Size */
+      }
+      #page-title a {
+        text-decoration: none; /* Remove Underline */
+        color: white; /* Text Color */
+      }
+
+      /* Navigation Bar Styles */
+      .sticky {
+        position: fixed; /* Position method, fixed - set position in relation to view window using top, bottom, right, left */
+        top: 0; /* Distance from the top of the view window */
+        width: 100%; /* Width in relation to container */
+      }
+      .navigation-bar-container {
+        background-color: var(--nav-bar-color); /* Background Color */
+        display: flex; /* Layout model - gives us control over where elements are placed */
+        justify-content: center; /* Horizontal Alignment */
+        padding: 20px 0px; /* Keep everything inside the element 20px from the top and bottom borders */
+        height: 50px; /* Container Height */
+      }
+      .navigation-bar {
+        width: 85%; /* Make this element 85% of the width of its container */
+        display: flex; /* Layout Model */
+        justify-content: space-between; /* Flex Layout madel attribute - create maximum amount of space between elements */
+        align-items: center; /* Vertical Alignment */
+      }
+      .navigation-bar-list {
+        list-style: none; /* Removes Bullet Points */
+      }
+      .navigation-bar-item {
+        margin-left: 35px; /* Create 35px of space between this element and the element to the left */
+        font-size: 18px; /* Font Size */
+        float: left; /* Move Item to the left of its container, Respects the 'justify-content: space-between;' flex layout attribute */
+    
+      }
+      .navigation-bar-item-link {
+        text-decoration: none; /* Remove Underline */
+        color: white; /* Text Color */
+      }
+
+      /* Landing Section Styles */
+      .landing-section {
+        background-color: var(--main-color); /* Background Color */
+        color: white; /* Text Color */
+        height: 100vh; /* 100% of the height of the view/browser */
+      }
+      .landing-section-text {
+        font-size: 100px; /* Font Size */
+        line-height: 100vh; /* Text Line Height - Vertical Center (without flex layout, text only, 1 line of text) */
+        margin: 0; /* No spacing between container boarders and element */
+      }
+
+      /* Section Styles */
+      .about-section, 
+      .experience-section,
+      .skill-section, 
+      .course-section, 
+      .contact-section {
+        height: 100vh; /* 100% of the height of the view/browser */
+        padding-top: 90px; /* nav-bar-height + (2 * nav-barpadding) = 50px + (2 * 20px) = 90px */
+        color: var(--section-text-color); /* Text Color */
+      }
+      .container {
+        width: 85%; /* Element Width based on Container */
+        margin: 0 auto; /* Horizantally Center */
+      }
+
+      /* Icon Styles */
+      .contact-icon {
+        height: 25px; /* Element Height */
+        margin-right: 50px; /* Space between this element and element to the right */
+      }
+      .icon-container {
+        display: flex; /* Layout Model */
+        justify-content: center; /* Flex Layout, Horizontally Center */
+        margin: 10px 0px; /* Add space outside of container on top and bottom */
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class = "navigation-bar-container sticky">
+      <div class = "navigation-bar">
+        <div id = "page-title"><a href="#">JS</a></div>
+        <ul class = "navigation-bar-list">
+          <li class = "navigation-bar-item"><a class = "navigation-bar-item-link" href = "#about" >About</a></li>
+          <li class = "navigation-bar-item"><a class = "navigation-bar-item-link" href = "#experience" >Experience</a></li>
+          <li class = "navigation-bar-item"><a class = "navigation-bar-item-link" href = "#skill" >Skills</a></li>
+          <li class = "navigation-bar-item"><a class = "navigation-bar-item-link" href = "#courses" >Courses</a></li>
+          <li class = "navigation-bar-item"><a class = "navigation-bar-item-link" href = "#contact" >Contact</a></li>
+        </ul>
+    </div>
+    </div>
+
+
+    <section class = "landing-section" id = "home">
+      <div class = "container">
+        <h1 class = "landing-section-text">I am John Smith. </h1>
+      </div>
+    </section>
+
+
+    <section class = "about-section" id = "about">
+    <div class = "container">
+      <h2>About Me</h2>
+      <p>I am a full-time student at Howard University.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </p>
+    </div>
+    </section>
+
+
+    <section class = "experience-section" id = "experience">
+      <div class = "container">
+        <h2>Experience</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+
+
+    <section class = "skill-section" id = "skill">
+      <div class = "container">
+        <h2>Skills</h2>
+        
+        Familiar:
+        <ul>
+          <li>GitHub & GHCR</li>
+          <li>HTML/CSS</li>
+          <li>HubSpot</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+          <li>VMware Tanzu Community Edition</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class = "course-section" id = "courses">
+      <div class = "container">
+        <h2>Courses</h2>
+        <ul>
+          <li>Principles of Financial Accounting</li>
+          <li>Principles of Managerial Accounting</li>
+          <li>Principles of Microeconomics</li>
+          <li>Principles of Macroeconomics</li>
+          <li>Information Systems</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class = "contact-section" id = "contact">
+    <div class = "container">
+      <h2>Contact Me</h2>
+
+      <!-- ADD YOUR HUBSPOT FORM HERE -->
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "22679218",
+          formId: "d3b36604-df16-498c-9980-fa810d36321e",
+          version: "V2_PRERELEASE"
+        });
+      </script>
+      <!-- ADD YOUR HUBSPOT FORM HERE -->
+    </div>
+    <div class = "icon-container">
+      <a href = "https://www.linkedin.com/"><img src = "linkedin.svg" class = "contact-icon"></a>
+      <a href = "https://github.com/"><img src = "github.svg" class = "contact-icon"></a>
+      <a href = "email@email.com"><img src = "envelope-solid.svg" class = "contact-icon"></a>
+    </div>
+  </section>
+    
+
+</body>
+</html>
+

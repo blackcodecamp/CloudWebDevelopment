@@ -1,0 +1,10 @@
+.m2/*
+.settings/*
+.idea/*
+Gemfile
+Gemfile.lock
+vendor/*
+_site/*
+.jekyll-cache
+_config.yaml
+.sass-cache
