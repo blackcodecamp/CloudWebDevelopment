@@ -40,6 +40,7 @@ Before you move to the next step and pull code down from our code repository, yo
 2. Click the plus icon next to your profile icon in the upper right corner
 3. Click 'New repository'
 4. Set the name as anything you want. This will be the in your website link. (Don't forget it!)
+5. Click 'Create Repository'
 5. Under 'Quick Setup', copy the `https://github.com/<your-github-username>/<your-repo-name>.git`
 6. Open your terminal 
 7. Run the following commands to create a new folder at your root directory for your repository
