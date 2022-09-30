@@ -45,16 +45,15 @@ Before you move to the next step and pull code down from our code repository, yo
 6. Open your terminal 
 7. Run the following commands to create a new folder at your root directory for your repository
     ```
-    mkdir myresapp
-    cd myresapp
+    mkdir resume-app
+    cd resume-app
     ```
 8. Open your command line and Run the following commands to configure your git command line for your github account
     ```
     git config --global user.name '<your-github-username>'
     git config --global user.email '<your-github-email>'
     git config --global --list
-    git clone https://github.com/<your-github-username>/<your-repo-name>.git
-    git push --set-upstream origin master
+    git clone https://github.com/<your-github-username>/<your-repository-name>.git
     ```
 9. git should ask your for your username and password. Enter your github username **BUT when prompetd for your password enter your PAT**
 

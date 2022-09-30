@@ -26,7 +26,7 @@ Note: If you have already created your Spring Boot application in main or master
 1. Open Terminal/Command Line
 2. Change directory so you are in the location of your local repository
     ```
-    cd myresapp
+    cd resume-app
     ```
 3. Run the following commands 
     1. Create a new branch
@@ -50,7 +50,7 @@ Note: If you have already created your Spring Boot application in main or master
 
 ## Edit your website
 1. Open your IDE VS Code
-2. Open the folder where you stored your repo `myresapp`
+2. Open the folder where you stored your repo `resume-app`
 3. Open the `index.html` file under `Explorer`
 4. Replace the existing information with your information
 5. In the Menu Bar click 'View', 'Terminal' to open the Terminal in VS Code
@@ -83,7 +83,7 @@ Note: If you have already created your Spring Boot application in main or master
 1. Open terminal
 2. Change directory so you are in the location of your local repository
     ```
-    cd myresapp
+    cd resume-app
     ```
 3. Run the following command to create an empty branch 
     ```
