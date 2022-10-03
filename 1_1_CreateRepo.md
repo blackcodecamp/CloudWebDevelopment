@@ -41,7 +41,7 @@ Before you move to the next step and pull code down from our code repository, yo
 3. Click 'New repository'
 4. Set the name as anything you want. This will be the in your website link. (Don't forget it!)
 5. Click 'Create Repository'
-5. Under 'Quick Setup', copy the `https://github.com/<your-github-username>/<your-repo-name>.git`
+5. Under 'Quick Setup', copy the `https://github.com/<your-github-username>/<your-repo-name>.git` 
 6. Open your terminal 
 7. Run the following commands to create a new folder at your root directory for your repository
     ```
@@ -53,8 +53,18 @@ Before you move to the next step and pull code down from our code repository, yo
     git config --global user.name '<your-github-username>'
     git config --global user.email '<your-github-email>'
     git config --global --list
-    git clone https://github.com/<your-github-username>/<your-repository-name>.git
+    echo "# mycoolapp2" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin <copy your github quick setup URL here. You can find this URL in the quick setup section in your github account>
+    [quik setup screen:]!(https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/quick-setup.png) 
+         you command should look like this: 
+         git remote add origin https://github.com/blackcodecamp/mycoolapp2.git
+    git push -u origin main
     ```
 9. git should ask your for your username and password. Enter your github username **BUT when prompetd for your password enter your PAT**
+10. You will not see the PAT pasted in the blank. However, when you paste, it is there.
 
 **Note:** <a href = '/CloudWebDevelopment/GitHub Error_ Authentication Failed from the Command Line _ by Ginny Fahs _ Medium.pdf' target= "_blank">View steps to authenticate with images</a>
