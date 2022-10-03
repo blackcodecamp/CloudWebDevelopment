@@ -37,7 +37,7 @@ Note: If you have already created your Spring Boot application in main or master
     1. Create a new branch
         ```
         git init                           //note: this command initialises the directory and creates a .git file so the git can track things locally.
-        git remote add origin <the URL you copied from "quik setup" in the last step should be pasted here. remove the aligator clisps as well>   //note:   we are adding your new repository to the new this new git directory.
+        git remote add origin <the URL you copied from "quik setup" in the last step should be pasted here. remove the aligator clisps as well>   //note:   we are adding your new remote repository to the new local git directory.
         
         git checkout -b gh-pages          // creating and switchig to our new gh-pages branch.
         ```
