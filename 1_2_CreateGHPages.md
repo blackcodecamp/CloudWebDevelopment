@@ -24,19 +24,26 @@ Note: CLI stand for Command Line Interface. These are command we can run in Comm
 Note: If you have already created your Spring Boot application in main or master branch jump down to [these steps](#if-you-have-already-pulled-the-spring-boot-application-into-master-follow-these-steps)
 
 1. Open Terminal/Command Line
-2. Change directory so you are in the location of your local repository
+2. If you are on a MAC or a Windows PC run the following commands for each platform.
     ```
-    cd resume-app
+    Mac & PC:
+    cd Documents                     //note: This should be your Documents folder on your Mac
+    mkdir resume-app                 //note: this command creates a folder in the documents folder
+    cd resume-app                    //note: this command changes directory "cd" to the folder you just created
     ```
-3. Run the following commands 
+    
+3. Run the following commands. 
+
     1. Create a new branch
         ```
-        git checkout -b gh-pages
-        git push --set-upstream origin gh-pages
+        git init                           //note: this command initialises the directory and creates a .git file so the git can track things locally.
+        git remote add origin <the URL you copied from "quik setup" in the last step should be pasted here. remove the aligator clisps as well>   //note:   we are adding your new repository to the new this new git directory.
+        
+        git checkout -b gh-pages          // creating and switchig to our new gh-pages branch.
         ```
     2. Get code for webpage
         ```
-        git pull https://github.com/blackcodecamp/CloudWebDevelopment.git gh-pages --rebase
+        git pull https://github.com/blackcodecamp/CloudWebDevelopment.git gh-pages --rebase   //note: we are Downloading code from the URL provided.
         ```
     3. Type the following to exit the vim/editor window
         ```
@@ -44,7 +51,7 @@ Note: If you have already created your Spring Boot application in main or master
         ```
     4. Update Remote Repo
         ```
-        git push
+        5. git push --set-upstream origin gh-pages              //note: we push the code to our newly created branch in our new repository.
         ```
 
 
