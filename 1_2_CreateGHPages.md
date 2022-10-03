@@ -47,10 +47,6 @@ Note: If you have already created your Spring Boot application in main or master
         ```
         git pull https://github.com/blackcodecamp/CloudWebDevelopment.git gh-pages --rebase   //note: we are Downloading code from the URL provided.
         ```
-    3. Type the following to exit the vim/editor window
-        ```
-        :wq
-        ```
     4. Update Remote Repo
         ```
         5. git push --set-upstream origin gh-pages              //note: we push the code to our newly created branch in our new repository.
