@@ -20,7 +20,7 @@ This tutorial will demonstrate how to configure your `git` command line tool to 
 Before you move to the next step and pull code down from our code repository, you will need to authenticate to your Github account to push your new code to the repository you just created. 
 
 1. Open your Terminal or Command Line
-2. Run the following command to mach sure git is installed
+2. Run the following command to make sure git is installed
     ```
     git version
     ```
