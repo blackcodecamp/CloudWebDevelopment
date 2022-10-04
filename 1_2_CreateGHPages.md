@@ -36,11 +36,21 @@ Note: If you have already created your Spring Boot application in main or master
 
     1. Create a new branch
         ```
-        git init                           //note: this command initialises the directory and creates a .git file so the git can track things locally.
-        git remote add origin <the URL you copied from "quik setup" in the last step should be pasted here. remove the aligator clisps as well>   //note:   we are adding your new remote repository to the new local git directory.
+        git init  
+        //note: this command initialises the directory and creates a .git file so the git can track things locally.
+        ```
+        Add the your new repository to your local git directory
+        ```
+        git remote add origin <the URL you copied from "quik setup" in the last step should be pasted here>. remove the aligator clisps as well>   
+        //note:   we are adding your new remote repository to the new local git directory.
+        ```
         
-        the command should look like this: git remote add origin https://github.com/jjovah/myressapp5.git
-        
+        The command should look like this: 
+        ```
+        git remote add origin https://github.com/jjovah/myressapp5.git
+        ```
+        Create a new branch and switch to the branch
+        ```
         git checkout -b gh-pages          // creating and switchig to our new gh-pages branch.
         ```
     2. Get code for webpage
@@ -49,18 +59,24 @@ Note: If you have already created your Spring Boot application in main or master
         ```
     4. Update Remote Repo
         ```
-        5. git push --set-upstream origin gh-pages              //note: we push the code to our newly created branch in our new repository.
+        git push --set-upstream origin gh-pages              //note: we push the code to our newly created branch in our new repository.
         ```
 
 
 ## Edit your website
 1. Open your IDE VS Code
 2. Open the folder where you stored your repo `resume-app`
-3. Open the `index.html` file under `Explorer`
-4. Replace the existing information with your information
-5. In the Menu Bar click 'View', 'Terminal' to open the Terminal in VS Code
-6. Run the following commands
-    1. Add all changes to staging area
+3. Open the `index.html` by clicking `file menu` in the top left corner of the VS Code app. In the drop down menu, select `open file`. Then navigate to your `<your-home-folder>\Documents\resume-app\index.html` folder. 
+4. Once the html file is open in VS Code, edit the HTML file with your information.
+5. here is a [sample](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/code-sample.png) 
+6. Once editing is complete, save your changes by going to the menu bar and clicking 'File' and then 'Save'.  
+7. In the Menu Bar click 'Terminal' and then 'new terminal' to open the Terminal window in VS Code
+8. Run the following commands
+    1. Make sure you are in your git directory.
+     ```
+     cd Documents\resume-app\
+     ```
+    3. Add all changes to staging area
         ```
         git add --all
         ```
@@ -88,13 +104,13 @@ Note: If you have already created your Spring Boot application in main or master
 1. Open terminal
 2. Change directory so you are in the location of your local repository
     ```
-    cd resume-app
+    cd Documents\resume-app
     ```
 3. Run the following command to create an empty branch 
     ```
-    git switch --orphan gh-pages
+    git switch --orphan gh-pages2
     git commit --allow-empty -m "New orphan branch"
-    git push --set-upstream origin gh-pages
+    git push --set-upstream origin gh-pages2
     ```
 
 4. Go to Step 3b. 'Get code for webpage' above
