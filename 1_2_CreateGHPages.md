@@ -22,9 +22,7 @@ Note: CLI stand for Command Line Interface. These are command we can run in Comm
 
 ## Get access GitHub Pages code
 Here is a short video that provides an example of what you will be doing at the command line on both your Mac or Windows PC. 
-<video src="https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR" controls="controls" style="max-width: 730px;">
-</video>
-
+[![asciicast](https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR.svg)](https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR)
 
 1. Open Terminal/Command Line
 2. If you are on a MAC or a Windows PC run the following commands for each platform.
