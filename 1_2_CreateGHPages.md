@@ -45,7 +45,7 @@ Note: If you have already created your Spring Boot application in main or master
         //note:   we are adding your new remote repository to the new local git directory.
         ```
         
-        The command should look like this: 
+        The command should look like this: The below is an example.
         ```
         git remote add origin https://github.com/jjovah/myressapp5.git
         ```
