@@ -26,8 +26,9 @@ This tutorial will demonstrate how to deploy the image of the Spring Boot Applic
         ...
     ...
     ```
-4. Open Terminal
-5. Run the following commands
+4. Save this change using `CNTRL` + `S` or `File > Save`
+5. Open Terminal (cd into the directory containing your repository)
+6. Run the following commands
     1. See that your unmanaged cluster has been created as a Kubernetes in Docker or KinD cluster
 
         (Note: The name of your Kubernetes Context with be kind-clusterName)
@@ -52,4 +53,6 @@ This tutorial will demonstrate how to deploy the image of the Spring Boot Applic
         ```
         kubectl port-forward resume-app-pod 8080:8080
         ```
-6. Open [http://localhost:8080](http://localhost:8080) in your browser!
+7. Open [http://localhost:8080](http://localhost:8080) in your browser!
+
+**Note:** To stop this from running press `CNTRL` + `C`

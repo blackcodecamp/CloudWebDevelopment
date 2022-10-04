@@ -40,5 +40,5 @@ This tutorial demostrates how to get a local copy of the Spring Boot Application
         ```
     5. Update your remote repository
         ```
-        git push
+        git push -f
         ```

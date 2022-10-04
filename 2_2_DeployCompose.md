@@ -27,11 +27,11 @@ This tutorial will show you how to use docker compose to build images and contai
         ```
     2. Update your remote repository
         ```
-        git push
+        git push -f
         ```
 5. Run the following command to start your Docker app 
     ```
-    docker compose up
+    docker-compose up
     ```
 
     Note: you must be in the same directory as your Dockerfile and docker-compose.yaml. Use the command `ls` to check and `cd` to change directories)
@@ -43,6 +43,6 @@ This tutorial will show you how to use docker compose to build images and contai
     1. Press `CNTL` + `C`
     2. Run the following command
         ```
-        docker compose down
+        docker-compose down
         ```
 
