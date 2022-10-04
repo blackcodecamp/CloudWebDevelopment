@@ -21,7 +21,8 @@ Before you move to the next step and pull code down from our code repository, yo
 
 1. Open your Terminal or Command Prompt 
 
-**Note:** Windows Press Windows Key + `X` and click Command Prompt or Windows Powershell
+    **Note:** Windows Press Windows Key + `X` and click Command Prompt or Windows Powershell
+
 2. Run the following command to make sure git is installed
     ```
     git version
@@ -46,4 +47,4 @@ Before you move to the next step and pull code down from our code repository, yo
 5. Under 'Quick Setup', copy the `https://github.com/<your-github-username>/<your-repo-name>.git` 
 6. You have now created a new Repository. Go to the next section. This section is complete.
 
-**Note:** <a href = '/CloudWebDevelopment/GitHub Error_ Authentication Failed from the Command Prompt _ by Ginny Fahs _ Medium.pdf' target= "_blank">View steps to authenticate with images</a>
+**Note:** <a href = '/CloudWebDevelopment/AuthenticateWithGitHub.pdf' target= "_blank">View steps to authenticate with images</a>
