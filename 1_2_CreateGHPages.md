@@ -22,7 +22,7 @@ You should already have the following set up...
 ## Get access GitHub Pages code
 Here is a short video that provides an example of what you will be doing at the command line on both your Mac or Windows PC. 
 
-<a href='https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR' target = '_blank'>Watch Asciicast Video!<a> {: .btn}
+<a href='https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR' target = '_blank'>Watch Asciicast Video!<a> {: .btn }
 
 1. Open Terminal/Command Line
 2. If you are on a MAC or a Windows PC run the following commands for each platform.
