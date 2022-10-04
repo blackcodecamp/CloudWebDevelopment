@@ -17,14 +17,14 @@ You should already have the following set up...
 * git CLI ([Mac/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)<a href = '/CloudWebDevelopment/[2022] How to install Git on Windows 10 _ 11 (step by step guide) _ by Valentin Despa _ DevOps with Valentine _ Medium.pdf' target = '_blank'>/Windows</a>)
 
 
-**Note:** CLI stand for Command Line Interface. These are command we can run in Command Line or Terminal.
+**Note:** CLI stand for Command Prompt Interface. These are command we can run in Command Prompt or Terminal.
 
 ## Get access GitHub Pages code
-Here is a short video that provides an example of what you will be doing at the command line on both your Mac or Windows PC. 
+Here is a short video that provides an example of what you will be doing at the Command Prompt on both your Mac or Windows PC. 
 
-<a href='https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR' target = '_blank'>Watch Asciicast Video!<a> {: .btn }
+<a href='https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR' target = '_blank'><button type="button" name="button" class="btn">Watch Asciicast Video!<button><a>
 
-1. Open Terminal/Command Line
+1. Open Terminal/Command Prompt
 2. If you are on a MAC or a Windows PC run the following commands for each platform.
     1. Create a folder to hold your repository (Mac, Linux & Windows)
 

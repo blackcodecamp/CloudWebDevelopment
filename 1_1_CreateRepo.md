@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # 1.1 Create GitHub Repository
-This tutorial will demonstrate how to configure your `git` command line tool to access your Github account. This will enable you to pull our public repository and then push the code to your repository in your account. Lets get started. 
+This tutorial will demonstrate how to configure your `git` Command Prompt tool to access your Github account. This will enable you to pull our public repository and then push the code to your repository in your account. Lets get started. 
 
 ## PreRequisites
 ### Registrations
@@ -19,7 +19,9 @@ This tutorial will demonstrate how to configure your `git` command line tool to 
 ## Generate a Personal Access Token (PAT)
 Before you move to the next step and pull code down from our code repository, you will need to authenticate to your Github account to push your new code to the repository you just created. 
 
-1. Open your Terminal or Command Line
+1. Open your Terminal or Command Prompt 
+
+**Note:** Windows Press Windows Key + `X` and click Command Prompt or Windows Powershell
 2. Run the following command to make sure git is installed
     ```
     git version
@@ -44,4 +46,4 @@ Before you move to the next step and pull code down from our code repository, yo
 5. Under 'Quick Setup', copy the `https://github.com/<your-github-username>/<your-repo-name>.git` 
 6. You have now created a new Repository. Go to the next section. This section is complete.
 
-**Note:** <a href = '/CloudWebDevelopment/GitHub Error_ Authentication Failed from the Command Line _ by Ginny Fahs _ Medium.pdf' target= "_blank">View steps to authenticate with images</a>
+**Note:** <a href = '/CloudWebDevelopment/GitHub Error_ Authentication Failed from the Command Prompt _ by Ginny Fahs _ Medium.pdf' target= "_blank">View steps to authenticate with images</a>

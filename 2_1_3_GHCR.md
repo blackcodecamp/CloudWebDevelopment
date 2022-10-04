@@ -83,8 +83,8 @@ This tutorial will demonstrate how to (1) activate GitHub Container Registry fro
 6. Choose `System Variables`
 7. Choose `New`
 8. Enter the variable `Name` as 'CR_PAT' and `Value` as your GHCR token
-9. Quit Command Line/CMD if its running 
-Restart Command Line/CMD
+9. Quit Command Prompt/CMD if its running 
+Restart Command Prompt/CMD
 10. Run the following command to make sure this has been added to your Environment 
     ```
     set CR_PAT
