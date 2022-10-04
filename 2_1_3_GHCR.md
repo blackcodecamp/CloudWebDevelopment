@@ -91,18 +91,25 @@ Restart Command Line/CMD
     ```
 
 ## Push Image to GitHub Container Registry
-1. Tag your Image locally
-    ```
-    docker tag <image-name>:latest ghcr.io/<github-username>/resume-image:latest
-    ```
-2. Run the following command to push your image to GitHub Container Registry
-    ```
-    docker push ghcr.io/<github-username>/resume-image:latest
-    ```
-3. Run the following command to test that your image successfully pushed
-    ```
-    docker inspect ghcr.io/<github-username>/resume-image
-    ```
+1. Run the following commands
+    1. Tag your Image locally
+        ```
+        docker tag resume-image:latest ghcr.io/<github-username>/resume-image:latest
+        ```
+    2. Test that your image was tagged sucessfully
+        ```
+        docker image ls
+        ```
+
+        **Note:** You should see a new image with the name `ghcr.io/<github-username>/resume-image:latest`
+    3. Push your image to GitHub Container Registry
+        ```
+        docker push ghcr.io/<github-username>/resume-image:latest
+        ```
+    3. Run the following command to test that your image successfully pushed
+        ```
+        docker inspect ghcr.io/<github-username>/resume-image
+        ```
 
 ## Make your Image Public
 1. Navigate to your GitHub Packages from your Github Profile 
