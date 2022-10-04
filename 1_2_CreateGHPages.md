@@ -21,7 +21,8 @@ You should already have the following set up...
 Note: CLI stand for Command Line Interface. These are command we can run in Command Line or Terminal.
 
 ## Get access GitHub Pages code
-Note: If you have already created your Spring Boot application in main or master branch jump down to [these steps](#if-you-have-already-pulled-the-spring-boot-application-into-master-follow-these-steps)
+Here is a short video that provides an example of what you will be doing at the command line on both your Mac or Windows PC. 
+[![Alternate Text]({[image-url](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/movie-imge.png)})]({[video-url](https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR)} "Command Line Video: This video shows you the process below")
 
 1. Open Terminal/Command Line
 2. If you are on a MAC or a Windows PC run the following commands for each platform.
