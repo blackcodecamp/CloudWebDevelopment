@@ -35,8 +35,17 @@ This tutorial demostrates how to get a local copy of the Spring Boot Application
         git pull https://github.com/blackcodecamp/CloudWebDevelopment.git --rebase
         ```
     4. See the code files
+
+        **Mac/Linux**
+        
         ```
         ls
+        ```
+
+        **Windows**
+
+        ```
+        dir
         ```
     5. Update your remote repository
         ```
