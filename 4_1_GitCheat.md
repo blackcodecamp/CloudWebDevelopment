@@ -17,4 +17,5 @@ nav_order: 1
 | git pull | Get any commits (code + messages) from remote repository for the current branch|
 | git clone [url] | Create a local copy of a rmeote repository |
 
-[See More!](https://education.github.com/git-cheat-sheet-education.pdf){: .btn .mx-auto}
+
+<a href = "https://education.github.com/git-cheat-sheet-education.pdf" target = "_blank"><button class = "button">See More!</button></a>
