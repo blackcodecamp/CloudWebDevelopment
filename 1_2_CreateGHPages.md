@@ -22,7 +22,8 @@ Note: CLI stand for Command Line Interface. These are command we can run in Comm
 
 ## Get access GitHub Pages code
 Here is a short video that provides an example of what you will be doing at the command line on both your Mac or Windows PC. 
-[![Alternate Text]({[image-url](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/movie-imge.png)})]({[video-url](https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR)} "Command Line Video: This video shows you the process below")
+[![Command Line Video]({[image-url](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/movie-imge.png)})]({ttps://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR} "Process Video")
+
 
 1. Open Terminal/Command Line
 2. If you are on a MAC or a Windows PC run the following commands for each platform.
