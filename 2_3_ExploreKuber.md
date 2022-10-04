@@ -87,6 +87,7 @@ Below you will find a list of Kubectl commands to stard interacting with your ne
 
 
 1. Retrieve Pods running in your cluster
+
     `kubectl get pods`
 
     ```
@@ -124,6 +125,8 @@ Below you will find a list of Kubectl commands to stard interacting with your ne
     ```
 
 3. Exec into a container running in a pod
+
+
     `kubectl exec -it resume-app-pod -c resume-app-container -- /bin/bash`
 
     ```
