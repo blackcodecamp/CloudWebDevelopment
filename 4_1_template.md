@@ -2,7 +2,7 @@
 layout: default
 title: All Prerequisites & Installation Notes
 parent: Support
-nav_order: 2
+nav_order: 1
 ---
 
 # Support: All Prerequisites

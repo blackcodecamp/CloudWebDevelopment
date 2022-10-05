@@ -16,14 +16,13 @@ This tutorial demostrates how to create a Docker Container Image of your Spring 
 
 **Note:** Right Click Installtions links and Click Open In New Tab
 
-**Note:** Be sure to add JAVA_HOME to System Environment Varibales. See [Support: All Prerequisites, Installation Notes](/CloudWebDevelopment/4_2_template.html#installaion-notes)
+**Note:** Be sure to add JAVA_HOME to System Environment Varibales. See [Support: All Prerequisites, Installation Notes](/CloudWebDevelopment/4_1_template.html#installaion-notes)
 
 **Note:** Run the following commands in Terminal/Command line to verify Installations
 ```
 docker -v
 java -version
 ```
-
 
 ## Create Docker Image
 1. Open your IDE
