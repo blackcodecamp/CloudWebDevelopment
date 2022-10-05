@@ -15,7 +15,7 @@ This tutorial demostrates how to get a local copy of the Spring Boot Application
 
 ### Installations
 * git CLI ([Mac/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)<a href = '/CloudWebDevelopment/[2022] How to install Git on Windows 10 _ 11 (step by step guide) _ by Valentin Despa _ DevOps with Valentine _ Medium.pdf' target = '_blank'>/Windows</a>)
-* IDE ([IntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows) or [Visual Studio Code](https://code.visualstudio.com/download))
+* [Visual Studio Code](https://code.visualstudio.com/download))
 
 ## Access the Spring Boot Application
 1. Open your IDE (IntelliJ or VS Code)

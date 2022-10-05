@@ -18,4 +18,4 @@ All necessary prerequisites are listed below.
 * [Docker Deskop & CLI (docker)](https://docs.docker.com/compose/install/)
 * [Tanzu Community Edition CLI (tanzu)](https://tanzucommunityedition.io/docs/v0.12/cli-installation/)
 * [Kubernetes CLI (kubectl)](https://kubernetes.io/docs/tasks/tools/)
-* IDE ([IntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows) or [Visual Studio Code](https://code.visualstudio.com/download))
+* [Visual Studio Code](https://code.visualstudio.com/download))

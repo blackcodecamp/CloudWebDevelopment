@@ -11,8 +11,8 @@ This tutorial demostrates how to create a Docker Container Image of your Spring 
 ## Pre-Requisites
 ### Installations
 * [Docker Deskop & CLI](https://docs.docker.com/compose/install/)
-* IDE ([IntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows) or [Visual Studio Code](https://code.visualstudio.com/download))
-* Java([Mac]https://www.oracle.com/java/technologies/downloads/#jdk19-mac)[/Windows](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)
+* [Visual Studio Code](https://code.visualstudio.com/download))
+* Java([Mac](https://www.oracle.com/java/technologies/downloads/#jdk19-mac)[/Windows](https://www.oracle.com/java/technologies/downloads/#jdk19-windows))
 
 **Note:** Right Click INstalltions links and Click Open In New Tab
 **Note:** Be sure to add JAVA_HOME to Stsyem Environment Varibales (One time) See instrutions on the bottom of this page.
@@ -40,8 +40,11 @@ This tutorial demostrates how to create a Docker Container Image of your Spring 
 5. Keep track of your image name!
 
 
-### Add JAVA_HOME to System Environment Variables
-**Mac**
+## Add JAVA_HOME to System Environment Variables
+### Mac
+
+<a href = "https://www.oracle.com/java/technologies/downloads/#jdk19-mac" target = "_blank">Install Java JDK Mac Installer Here</a>
+
 1. Open Terminal
 2. Notice if you see `zsh` or `bash` on the top of your window
 3. Run the following command to find where Java is.
@@ -51,16 +54,38 @@ This tutorial demostrates how to create a Docker Container Image of your Spring 
 4. Copy the line that has jdk in it
 3. Run the following command if you have `bash`
     ```
-    echo export JAVA_HOME='<paste-java-path-here>' >> .bash_profile
+    echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.bash_profile
+    ```
+    **Restart Terminal**
+    ```
     cat .bash_profile
     echo $JAVA_HOME
     ```
 3. Run the following command if you have `zsh`
     ```
-    echo export JAVA_HOME='<paste-java-path-here>' >> .zshrc
+    echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.zshrc
+    ```
+    **Restart Terminal**
+    ```
     cat .zshrc
     echo $JAVA_HOME
     ```
 
-**Windows**
-1. Open Command Prompt
+### Windows
+
+<a href = "https://www.oracle.com/java/technologies/downloads/#jdk19-windows" target = "_blank">Install Java JDK Windows Installer Here</a>
+
+1. Open File Explorer
+2. Click `This PC`, `Local Disk (C:)`, `Program Files`, `Java`, `jdk-##`
+2. Right click the folder `jdk-##` and click `Copy address as text`
+3. Open Control Plane
+4. Click `System & Security`, `System`, `Advanced System Settings`, `Environment Variables`
+5. Under 'System Variables' Click `New`
+6. Set Variable Name to `JAVA_HOME` 
+7. For Variable value paste the result of $where java
+8. Press `OK`
+9. Restart COmmand Prompt
+10. Type the following command TO MAKE SURE THE VARIABLE HAS BEEN SET
+    ```
+    set JAVA_HOME
+    ```
