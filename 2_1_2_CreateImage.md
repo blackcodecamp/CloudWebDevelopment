@@ -96,7 +96,7 @@ java -version
 4. Click `System & Security`, `System`, `Advanced System Settings`, `Environment Variables`
 5. Under 'System Variables' Click `New`
 6. Set Variable Name to `JAVA_HOME` 
-7. For Variable value paste the result of $where java
+7. For Variable value paste the address of 'jdk-##'
 8. Press `OK`
 9. Restart Command Prompt
 10. Type the following command to make sure the variable has been correctly set
