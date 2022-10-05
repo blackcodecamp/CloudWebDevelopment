@@ -27,7 +27,58 @@ All necessary prerequisites are listed below.
 
 ## Installation Notes
 
-For **Java Installation**, see [2.1.1 Create Docker Container Image of your Application, Add JAVA_HOME to System Environment Variables](/CloudWebDevelopment/2_1_2_CreateImage.html#add-java_home-to-system-environment-variables)
+For **Java Installation**, Add JAVA_HOME to System Environment Variables
+
+### Mac
+
+<a href = "https://www.oracle.com/java/technologies/downloads/#jdk19-mac" target = "_blank">Download Java JDK Mac Installer Here</a>
+
+1. Open Terminal
+2. Notice if you see `zsh` or `bash` on the top of your window
+3. Run the following command to find where Java is.
+    ```
+    where java
+    ```
+4. Copy the line that has jdk in it
+3. Run the following command if you have `bash`
+    ```
+    echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.bash_profile
+    ```
+    Restart Terminal
+
+    ```
+    cat .bash_profile
+    echo $JAVA_HOME
+    ```
+3. Run the following command if you have `zsh`
+    ```
+    echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.zshrc
+    ```
+    Restart Terminal
+    
+    ```
+    cat .zshrc
+    echo $JAVA_HOME
+    ```
+
+### Windows
+
+<a href = "https://www.oracle.com/java/technologies/downloads/#jdk19-windows" target = "_blank">Download Java JDK Windows Installer Here</a>
+
+1. Open File Explorer
+2. Click `This PC`, `Local Disk (C:)`, `Program Files`, `Java`, `jdk-##`
+2. Right click the folder `jdk-##` and click `Copy address as text`
+3. Open Control Plane
+4. Click `System & Security`, `System`, `Advanced System Settings`, `Environment Variables`
+5. Under 'System Variables' Click `New`
+6. Set Variable Name to `JAVA_HOME` 
+7. For Variable value paste the result of $where java
+8. Press `OK`
+9. Restart Command Prompt
+10. Type the following command to make sure the variable has been correctly set
+    ```
+    set JAVA_HOME
+    ```
 
 For **Tanzu & Kubernetes Installation**, 
 
