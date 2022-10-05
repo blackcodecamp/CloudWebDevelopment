@@ -11,8 +11,14 @@ This tutorial will demonstrate how to create an unmanaged cluster using Tanzu Co
 
 ## Pre-Requisites
 ### Installations
-* [Docker Destop & CLI (docker)](https://docs.docker.com/compose/install/)
+* Docker Deskop & CLI ([Mac](https://docs.docker.com/desktop/install/mac-install/)[/Windows](https://docs.docker.com/desktop/install/windows-install/))
 * [Tanzu Community Edition CLI (tanzu)](https://tanzucommunityedition.io/docs/v0.12/cli-installation/)
+
+**Note:** Run the following commands in Terminal/Command line to verify Installations
+```
+docker -v
+tanzu version
+```
 
 ## Create an Unmanaged Cluster
 1. Open Docker Desktop

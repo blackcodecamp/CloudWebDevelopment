@@ -18,8 +18,13 @@ This tutorial will demonstrate how to (1) activate GitHub Container Registry fro
 * [GitHub Account](www.github.com)
 
 ### Installations
-* [Docker Deskop & CLI (docker)](https://docs.docker.com/compose/install/)
+* Docker Deskop & CLI ([Mac](https://docs.docker.com/desktop/install/mac-install/)[/Windows](https://docs.docker.com/desktop/install/windows-install/))
 
+**Note:** Run the following commands in Terminal/Command line to verify Installations
+```
+docker -v
+git -v
+```
 
 ## Activate GitHub Container Registry
 1. Navigate to [GitHub Personal Access Token Creation Form](https://github.com/settings/tokens/new)
@@ -75,19 +80,20 @@ This tutorial will demonstrate how to (1) activate GitHub Container Registry fro
         ```
 
 ## Add GHCR Token to Windows Environment Variables
-1. Open Control Panel
-2. Click `System`
-3. Click `Advanced system settings`
-4. Click to the `Advanced` tab
-5. Click `Environment variables`
-6. Choose `System Variables`
-7. Choose `New`
-8. Enter the variable `Name` as 'CR_PAT' and `Value` as your GHCR token
-9. Quit Command Prompt/CMD if its running 
-Restart Command Prompt/CMD
+1. Open Control Plane
+2. Click `System & Security`, `System`, `Advanced System Settings`, `Environment Variables`
+3. Under 'System Variables' Click `New`
+4. Set Variable Name to `CR_PAT` 
+5. For Variable value paste the PAT from GitHub
+6. Press `OK`
+7. Restart Command Prompt
 10. Run the following command to make sure this has been added to your Environment 
     ```
     set CR_PAT
+    ```
+11. Apply Token
+    ```
+    echo %CR_PAT% | docker login ghcr.io -u <your-username> --password-stdin
     ```
 
 ## Push Image to GitHub Container Registry

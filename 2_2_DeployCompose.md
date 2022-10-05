@@ -13,8 +13,7 @@ This tutorial will show you how to use docker compose to build images and contai
 ### Installations 
 * git CLI ([Mac/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)<a href = '/CloudWebDevelopment/[2022] How to install Git on Windows 10 _ 11 (step by step guide) _ by Valentin Despa _ DevOps with Valentine _ Medium.pdf' target = '_blank'>/Windows</a>)
 * Docker Desktop & CLI ([Mac](https://docs.docker.com/desktop/install/mac-install/)/[Windows](https://docs.docker.com/desktop/install/windows-install/))
-* [Docker Deskop & CLI](https://docs.docker.com/compose/install/)
-
+* Docker Deskop & CLI ([Mac](https://docs.docker.com/desktop/install/mac-install/)[/Windows](https://docs.docker.com/desktop/install/windows-install/))
 
 ## Deploy Spring Boot Application Locally
 1. Open your IDE (IntelliJ or VS Code)

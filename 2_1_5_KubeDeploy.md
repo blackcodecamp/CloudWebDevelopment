@@ -14,6 +14,10 @@ This tutorial will demonstrate how to deploy the image of the Spring Boot Applic
 ### Installations
 * [Kubernetes CLI (kubectl)](https://kubernetes.io/docs/tasks/tools/)
 
+**Note:** Run the following command(s) in Terminal/Command line to verify Installations
+```
+kubectl version
+```
 ## Deploy To Unmanaged Cluster using Kubernetes using your Image
 1. Open your IDE to your Spring Boot Application
 2. Open `kubernetes.yaml`
