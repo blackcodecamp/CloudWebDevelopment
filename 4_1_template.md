@@ -18,7 +18,6 @@ All necessary prerequisites are listed below.
 * Docker Deskop & CLI ([Mac](https://docs.docker.com/desktop/install/mac-install/)[/Windows](https://docs.docker.com/desktop/install/windows-install/))
 * [Tanzu Community Edition CLI (tanzu)](https://tanzucommunityedition.io/docs/v0.12/cli-installation/)
 * Kubernetes CLI (kubectl) ([Mac](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-with-homebrew-on-macos)[/Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/#install-on-windows-using-chocolatey-or-scoop)
-(https://kubernetes.io/docs/tasks/tools/)
 * [Visual Studio Code](https://code.visualstudio.com/download))
 * Java ([Mac](https://www.oracle.com/java/technologies/downloads/#jdk19-mac)[/Windows](https://www.oracle.com/java/technologies/downloads/#jdk19-windows))
 
@@ -107,7 +106,7 @@ Windows: [Install Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#inst
     ```
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
     ```
-3. Restart Command Prompt (Admin)
+3. Restart Command Prompt/Windows Terminal/Powershell (Admin)
 4. Run the following commands to make sure Chocolatley was installed and install TCE and Kubernetes
     ```
     choco -v
