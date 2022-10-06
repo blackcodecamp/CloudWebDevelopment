@@ -29,7 +29,7 @@ Before you move to the next step and pull code down from our code repository, yo
     ```
 3. Generate PAT
     1. Login to [GitHub](https://github.com/) in your browser
-    2. Click your profile icon in the upper right corner, then click 'Settings'
+    2. Click your profile icon in the upper right corner, then click `Settings`
     3. Click `Developer Settings` in the left side menu
     4. Click `Personal Access Tokens`, `Generate New Token`
     5. Enter your password
@@ -41,10 +41,13 @@ Before you move to the next step and pull code down from our code repository, yo
 ## Create a GitHub Repository
 1. Login to [GitHub](https://github.com/) in your browser
 2. Click the plus icon next to your profile icon in the upper right corner
-3. Click 'New repository'
+3. Click `New repository`
 4. Set the name as anything you want. This will be the in your website link. (Don't forget it!)
-5. Click 'Create Repository'
-5. Under 'Quick Setup', copy the `https://github.com/<your-github-username>/<your-repo-name>.git` 
+5. Click `Create Repository`
+5. Under `Quick Setup`, copy the `https://github.com/<your-github-username>/<your-repo-name>.git` 
+
+**Note:** Remove aligator clips `<` & `>`
+
 6. You have now created a new Repository. Go to the next section. This section is complete.
 
 **Note:** <a href = '/CloudWebDevelopment/AuthenticateWithGitHub.pdf' target= "_blank">View steps to authenticate with images</a>

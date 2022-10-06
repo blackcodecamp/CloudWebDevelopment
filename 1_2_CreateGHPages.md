@@ -17,12 +17,12 @@ You should already have the following set up...
 * git CLI ([Mac/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)<a href = '/CloudWebDevelopment/[2022] How to install Git on Windows 10 _ 11 (step by step guide) _ by Valentin Despa _ DevOps with Valentine _ Medium.pdf' target = '_blank'>/Windows</a>)
 
 
-**Note:** CLI stand for Command Prompt Interface. These are command we can run in Command Prompt or Terminal.
+    **Note:** CLI stand for Command Prompt Interface. These are command we can run in Command Prompt or Terminal.
 
 ## Get access GitHub Pages code
 Here is a short video that provides an example of what you will be doing at the Command Prompt on both your Mac or Windows PC. 
 
-<a href='https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR' target = '_blank'><button type="button" name="button" class="btn">Watch Asciicast Video!<button><a>
+<a href='https://asciinema.org/a/BFsCp8U9sBOQJzEHfsmzv0fJR' target = '_blank'><button type="button" name="button" class="btn">Watch Asciicast Video!</button><a>
 
 1. Open Terminal/Command Prompt
 2. If you are on a MAC or a Windows PC run the following commands for each platform.
@@ -51,7 +51,16 @@ Here is a short video that provides an example of what you will be doing at the 
         git init  
         ```
         **Note:** `git init` initialises the directory and creates a .git file so the git can track things locally.
-       
+
+    2. Configure user name and email for github in command line
+        ```
+        git config --global user.name "<enter-your-username>"
+        git config --global user.email "<enter-your-github-email>"
+        git config --global --list
+        ```
+        
+        **Note:** Remove aligator clips `<` & `>`
+
     2. Add the your new repository to your local git directory
         ```
         git remote add origin <the URL you copied from "quik setup" in the last step should be pasted here>
@@ -93,11 +102,11 @@ Here is a short video that provides an example of what you will be doing at the 
 ## Edit your website
 1. Open your IDE VS Code
 2. Open the folder where you stored your repo `resume-app`
-3. Open the `index.html` by clicking `file menu` in the top left corner of the VS Code app. In the drop down menu, select `open file`. Then navigate to your `<your-home-folder>\Documents\resume-app\index.html` folder. 
+3. Open the `index.html` by clicking `File` in the top left corner of the VS Code app. In the drop down menu, select `Open Folder`. Then select to your `~\Documents\resume-app` folder. 
 4. Once the html file is open in VS Code, edit the HTML file with your information.
 5. [See Example](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/code-sample.png) 
 6. Once editing is complete, save your changes by going to the menu bar and clicking `File` and then `Save`.  
-7. In the Menu Bar click `Terminal` and then `New Terminal` to open the Terminal window in VS Code
+7. In the Menu Bar click `Terminal` and then `New Terminal` to open the Terminal window in VS Code.
 8. Run the following commands
     1. Make sure you are in your git directory.
         ```
@@ -128,6 +137,9 @@ Here is a short video that provides an example of what you will be doing at the 
 4. Under `Source` select `Deploy from a branch`
 5. Under `Branch` select `gh-pages`
 6. When your page is ready you will see a message at the top of this page under `GitHubPages` that says 'Your site is live at `https://<github-username>.github.io/<your-repo-name>`'
+
+    **Note:** Remove aligator clips `<` & `>`
+
 7. Visit your site!
 
 <hr>

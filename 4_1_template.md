@@ -47,17 +47,18 @@ For **Java Installation**, Add JAVA_HOME to System Environment Variables
     Restart Terminal
 
     ```
-    cat .bash_profile
+    cat ~/.bash_profile
     echo $JAVA_HOME
     ```
 3. Run the following command if you have `zsh`
-    ```
-    echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.zshrc
-    ```
-    Restart Terminal
+    1. 
+        ```
+        echo export "JAVA_HOME=\$(/usr/libexec/java_home)" >> ~/.zshrc
+        ```
+    Close & Re open Terminal
     
     ```
-    cat .zshrc
+    cat ~/.zshrc
     echo $JAVA_HOME
     ```
 
