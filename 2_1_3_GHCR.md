@@ -53,18 +53,12 @@ git -v
     
         **Mac Instructions**
 
-        Note: Depends on the type of shell you are running bash (.bash_profile) or zsh (.zshrc)
+       **Note:** Depends on the type of shell you are running bash (.bash_profile) or zsh (.zshrc)
+        | zsh        | bash          |
+        |:-------------|:------------------|
+        | `echo "\nexport CR_PAT=$CR_PAT" >> ~/.zshrc`          | `echo "\nexport CR_PAT=$CR_PAT" >>  ~/.bash_profile`|
 
-        ```
-        echo "\nexport CR_PAT=$CR_PAT" >> ~/.zshrc
-        ```
-
-        or
-
-        ```
-        echo "\nexport CR_PAT=$CR_PAT" >>  ~/.bash_profile
-        ```
-
+    
     3. Quit and Reopen Terminal
 
     4. Make sure this has been added to your Environment 
@@ -78,6 +72,8 @@ git -v
         ```
         echo $CR_PAT | docker login ghcr.io -u <your-username> --password-stdin
         ```
+
+        **Note:** Remove alligator clips `<` & `>`
 
 ## Add GHCR Token to Windows Environment Variables
 1. Open Control Plane
@@ -95,6 +91,7 @@ git -v
     ```
     echo %CR_PAT% | docker login ghcr.io -u <your-username> --password-stdin
     ```
+    **Note:** Remove alligator clips `<` & `>`
 
 ## Push Image to GitHub Container Registry
 1. Run the following commands
@@ -102,20 +99,30 @@ git -v
         ```
         docker tag resume-image:latest ghcr.io/<github-username>/resume-image:latest
         ```
+
+        **Note:** Remove alligator clips `<` & `>`
+
     2. Test that your image was tagged sucessfully
         ```
         docker image ls
         ```
 
         **Note:** You should see a new image with the name `ghcr.io/<github-username>/resume-image:latest`
+
     3. Push your image to GitHub Container Registry
         ```
         docker push ghcr.io/<github-username>/resume-image:latest
         ```
+
+        **Note:** Remove alligator clips `<` & `>`
+
     3. Run the following command to test that your image successfully pushed
         ```
         docker inspect ghcr.io/<github-username>/resume-image
         ```
+
+        **Note:** Remove alligator clips `<` & `>`
+
 
 ## Make your Image Public
 1. Navigate to your GitHub Packages from your Github Profile 
