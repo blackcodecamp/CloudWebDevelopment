@@ -9,7 +9,7 @@ grand_parent: Course 1 Overview
 This document will demonstrate how to make window filling sections of a website.
 
 ## Page Section Styles
-1. Find the following in between the `<style></style>` tags
+1. Find the following in between the `<style></style>` tags in `initial.html`
     ```
     .landing-section, 
     .about-section, 
@@ -26,7 +26,7 @@ This document will demonstrate how to make window filling sections of a website.
     ```
 
 ## Inner Section Container Styles
-1. Find `.container {}` in between the `<style></style>` tags
+1. Find `.container {}` in between the `<style></style>` tags in `initial.html`
 2. Add the following code between the `{}`
     ```
     border: 5px solid orange; /* Show Element */
@@ -35,7 +35,7 @@ This document will demonstrate how to make window filling sections of a website.
     ```
 
 ## Landing Section Styles
-1. Find `.landing-section {}` in between the `<style></style>` tags
+1. Find `.landing-section {}` in between the `<style></style>` tags in `initial.html`
 2. Add the following code between the `{}`
     ```
     background-color: var(--main-color); /* Background Color */
@@ -44,7 +44,7 @@ This document will demonstrate how to make window filling sections of a website.
     ```
 
 ## Landing Section Text Styles
-1. Find `.landing-section-text {}` in between the `<style></style>` tags
+1. Find `.landing-section-text {}` in between the `<style></style>` tags in `initial.html`
 2. Add the following code between the `{}`
     ```
     border: 5px solid green; /* Show Element */
@@ -62,4 +62,4 @@ This document will demonstrate how to make window filling sections of a website.
     **Note:** Look under `.landing-section-text`, `.about-section, .experience-section,.skill-section, .course-section, .contact-section` & `.container`
 
 
-### The next Tutorial will demonstarte how to activate the navigation bar of this website!
+### The next Tutorial will demonstrate how to activate the navigation bar of this website!

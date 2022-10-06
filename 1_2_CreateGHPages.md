@@ -99,13 +99,14 @@ Here is a short video that provides an example of what you will be doing at the 
 
 
 ## Edit your website
-1. Open your IDE VS Code
-2. Open the folder where you stored your repo `resume-app`
-3. Open the `index.html` by clicking `File` in the top left corner of the VS Code app. In the drop down menu, select `Open Folder`. Then select to your `~\Documents\resume-app` folder. 
+1. Open your IDE, VS Code
+2. Open the folder where you stored your repository by opeining the menu and clicking `File` then `Open Folder`
+3. Then select to your `~\Documents\resume-app` folder
+3. Open `index.html` by clicking the file name in the  Explorer on the right side
 4. Once the html file is open in VS Code, edit the HTML file with your information.
-5. [See Example](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/code-sample.png) 
-6. Once editing is complete, save your changes by going to the menu bar and clicking `File` and then `Save`.  
-7. In the Menu Bar click `Terminal` and then `New Terminal` to open the Terminal window in VS Code.
+    [See Example](https://github.com/blackcodecamp/CloudWebDevelopment/blob/docs/logos/code-sample.png) 
+6. Once editing is complete, save your changes by going to the menu and clicking `File` then `Save` 
+7. In the menu click `Terminal` and then `New Terminal` to open the Terminal window in VS Code.
 8. Run the following commands
     1. Make sure you are in your git directory.
         ```
@@ -120,7 +121,7 @@ Here is a short video that provides an example of what you will be doing at the 
         git commit -am "<descriptive-message>"
         ```
 
-        **Note:** your descriptive message can be "My First Change"
+        **Note:** Your descriptive message can be "My First Change"
 
         **Note:** Remove aligator clips `<` & `>`
 
@@ -141,7 +142,9 @@ Here is a short video that provides an example of what you will be doing at the 
 
 7. Visit your site!
 
+<!--
 <hr>
+ 
 
 **If you have already pulled the Spring Boot Application into master follow these steps**
 1. Open terminal
@@ -156,4 +159,4 @@ Here is a short video that provides an example of what you will be doing at the 
     git push --set-upstream origin gh-pages2
     ```
 
-4. Go to Step 3b. 'Get code for webpage' above
+4. Go to Step 3b. 'Get code for webpage' above -->

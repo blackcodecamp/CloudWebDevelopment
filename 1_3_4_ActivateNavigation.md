@@ -17,15 +17,15 @@ This document will demonstrate how to activate the links in the navigation bar a
     
     **Note:** Notice the `href = "#about"` looks similar to an id selector (For example, `#page-title {}` corresponds with `id = "page-title"`)
 
-2. Find the following section element
+2. Find the following section element in btween the `<body></body>` tags in `initial.html`
     ```
     <section class = "about-section" id = ""> ... </section>
     ```
-3. Set the id to `about`
+3. Set the id to `about` like below
     ```
     <section class = "about-section" id = "about"> ... </section>
     ```
-4. Scroll to the top of the website. Click `About`.
+4. Open the browser that has your webpage. Scroll to the top of the website. Click `About` & see what happens.
 5. Repeat this process for Experience, Skills, Courses and Contact.
 
 ## Sticky Navigation Bar 

@@ -21,7 +21,9 @@ Before you move to the next step and pull code down from our code repository, yo
 
 1. Open your Terminal or Command Prompt 
 
-    **Note:** Windows Press Windows Key + `X` and click Command Prompt or Windows Powershell
+    **Note:** On Windows computers, press Windows Key + `X` and click Command Prompt/Windows Powershell/Windows Terminal
+
+    **Note:** On Mac computers, press `CMD` + space bar to open Spolight Search, type "Terminal" and click "Terminal"
 
 2. Run the following command to make sure git is installed
     ```
@@ -46,7 +48,7 @@ Before you move to the next step and pull code down from our code repository, yo
 5. Click `Create Repository`
 5. Under `Quick Setup`, copy the `https://github.com/<your-github-username>/<your-repo-name>.git` 
 
-**Note:** Remove aligator clips `<` & `>`
+    **Note:** Remove aligator clips `<` & `>`
 
 6. You have now created a new Repository. Go to the next section. This section is complete.
 
