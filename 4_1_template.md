@@ -126,7 +126,7 @@ Windows: [Install Chocolatey](https://docs.chocolatey.org/en-us/choco/setup#inst
 **To Run Docker in Windows** you must make sure Virtualization Proptection is enabled.
 
 {: .warning }
-> Contact a VMware Instructor in class or on discord (<a href = "https://discord.gg/dBpHwYwsXf" target = "_blank">#howard-cloud-web-development-course</a>) before beginning this process
+> Contact a VMware Instructor in class or on discord (<a href = "https://discord.gg/dBpHwYwsXf" target = "_blank">#howard-cloud-web-development-course</a>) before beginning this process. They will verify if you need to complete these steps or not. 
 
 1. Open Command Prompt
 2. Type `systeminfo` to see Hyper-V Requirements. If any are set to No, follow these steps:
