@@ -13,7 +13,7 @@ We designed a styles resume webpage displayed below. The tutorial below will dem
 
 ### Installations
 * git CLI ([Mac/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)<a href = '/CloudWebDevelopment/[2022] How to install Git on Windows 10 _ 11 (step by step guide) _ by Valentin Despa _ DevOps with Valentine _ Medium.pdf' target = '_blank'>/Windows</a>)
-* [Visual Studio Code](https://code.visualstudio.com/download))
+* [Visual Studio Code](https://code.visualstudio.com/download)
 * [Live Server Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
