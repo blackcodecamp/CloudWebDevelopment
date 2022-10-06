@@ -54,6 +54,8 @@ git -v
         **Mac Instructions**
 
        **Note:** Depends on the type of shell you are running bash (.bash_profile) or zsh (.zshrc)
+
+       
         | zsh        | bash          |
         |:-------------|:------------------|
         | `echo "\nexport CR_PAT=$CR_PAT" >> ~/.zshrc`          | `echo "\nexport CR_PAT=$CR_PAT" >>  ~/.bash_profile`|
