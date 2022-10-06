@@ -8,11 +8,11 @@ nav_order: 2
 # Support: Opportunities
 
 ## VMware-Howard Mentorship Program Spring 2023 
-Read the following document fo more information about the program and follow the link below the document to sign up now! Send any questions you may have in our <a href = "https://discord.gg/dBpHwYwsXf" target = "_blank">#howard-cloud-web-development-course!</a> discord channel.
+Read the following document fo more information about the program and follow the link below the document to sign up now! Send any questions you may have in our <a href = "https://discord.gg/dBpHwYwsXf" target = "_blank">#howard-cloud-web-development-course</a> discord channel.
 
 <a href = "CloudWebDevelopment/Howard-Mentorship-Spring-2023.pdf" target="_blank">
 <object data="Howard-Mentorship-Spring-2023.pdf" type="application/pdf">
-<iframe width="700px" src = "Howard-Mentorship-Spring-2023.pdf"></iframe>
+<iframe width="700px" style = "width:700px" src = "Howard-Mentorship-Spring-2023.pdf"></iframe>
 </object>
 </a>
 
