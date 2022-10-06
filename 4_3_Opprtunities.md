@@ -14,4 +14,4 @@ Read the following document fo more information about the program and follow the
         <iframe  src = "Howard-Mentorship-Spring-2023.pdf"></iframe>
     </object></a>
 
-<a href = "https://forms.office.com/Pages/ResponsePage.aspx?id=yjiRs-48Skuk1s2D2d1i8N5sKLL8vjJOvcPLW7OicRZUQUZMODVLQ1pQNkIzUVI4VFA3R1hPSEU3OC4u" target="_blank"><button>Sign Up Now!</button></a>{: .btn }
+<a href = "https://forms.office.com/Pages/ResponsePage.aspx?id=yjiRs-48Skuk1s2D2d1i8N5sKLL8vjJOvcPLW7OicRZUQUZMODVLQ1pQNkIzUVI4VFA3R1hPSEU3OC4u" target="_blank"><button class = "btn" type = "button">Sign Up Now!</button></a>
