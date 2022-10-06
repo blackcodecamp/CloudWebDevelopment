@@ -8,4 +8,19 @@ baseurl: "/"
 url: "https://blackcodecamp.github.io/CloudWebDevelopment" 
 
 search_enabled: false
-# logo: "logos/vmw-logo-vmware-logo-black-72.png"
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
