@@ -30,6 +30,27 @@ HubSpot provides the capability to develop custom dashboards or use dashboard te
 5. Under `Account Set Up`, click `Tracking Code`, `Copy`
 7. Paste the code in your `index.html` file open in VS Code in between the `<head></head>` tags
 
+## Push Changes to GitHub website
+1. Open Terminal in IDE
+    1. Run the following command to get into the branch where your code is 
+        ```
+        git checkout gh-pages
+        ```
+2. Run the following commands
+    1. Add code to staging area (local changes are tracked)
+        ```
+        git add --all
+        ```
+    2. Record file in version history
+        ```
+        git commit -am "Added HubSpot Analytics"
+        ```
+    3. Send changes to remote repository (where your website is built from)
+        ```
+        git push
+        ```
+
+**Note:** See [1.2 Create a Public Webpagewith GitHub Pages, Deploy to GitHub Pages](/CloudWebDevelopment/1_2_CreateGHPages.html#deploy-to-github-pages) form more information on GitHub Pages set up.
 
 ## Create Dashboard
 1. Open your [Hubspot Console](https://www.hubspot.com/) (Click `Go to my account`)

@@ -32,7 +32,7 @@ HubSpot provides the capability to create custom forms for the purposes of regis
         ```
 13. Paste the code in your `index.html` file above the `</body>` tag
 
-## Push code to GitHub website
+## Push Changes to GitHub website
 1. Open Terminal in IDE
     1. Run the following command to get into the branch where your code is 
         ```
@@ -40,11 +40,21 @@ HubSpot provides the capability to create custom forms for the purposes of regis
         ```
 2. Run the following commands
     1. Add code to staging area (local changes are tracked)
-
+        ```
+        git add --all
+        ```
     2. Record file in version history
+        ```
+        git commit -am "Added HubSpot Form"
+        ```
     3. Send changes to remote repository (where your website is built from)
-3. Wait about 1 minute for git to build your webpae and open your link `<github-username>.github.io/<repository-name>`
+        ```
+        git push
+        ```
+3. Wait about 1 minute for git to build your webpae and open the link to your website. (`<github-username>.github.io/<repository-name>`)
 4. Send a test submission of your form!
+
+**Note:** See [1.2 Create a Public Webpagewith GitHub Pages, Deploy to GitHub Pages](/CloudWebDevelopment/1_2_CreateGHPages.html#deploy-to-github-pages) form more information on GitHub Pages set up.
 
 ## See Form Submissions
 1. Open your [Hubspot Console](https://www.hubspot.com/) (Click `Go to my account`)
